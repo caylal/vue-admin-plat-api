@@ -1,0 +1,691 @@
+2019-08-30 14:19:06.653 [main] INFO  com.avenir.AvenirApplication - Starting AvenirApplication on DESKTOP-QIA32CU with PID 35012 (E:\Avenir\target\classes started by dell in E:\Avenir)
+2019-08-30 14:19:06.654 [main] INFO  com.avenir.AvenirApplication - No active profile set, falling back to default profiles: default
+2019-08-30 14:19:07.964 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2019-08-30 14:19:07.980 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2019-08-30 14:19:07.990 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-30 14:19:07.990 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-30 14:19:07.999 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-08-30 14:19:07.999 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2019-08-30 14:19:07.999 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-08-30 14:19:07.999 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-08-30 14:19:09.072 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2019-08-30 14:19:09.178 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-30 14:19:09.178 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2483 ms
+2019-08-30 14:19:09.820 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-30 14:19:10.016 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2019-08-30 14:19:10.039 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2019-08-30 14:19:10.042 [main] INFO  com.avenir.AvenirApplication - Started AvenirApplication in 3.735 seconds (JVM running for 4.917)
+2019-08-30 14:20:00.968 [http-nio-8088-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-30 14:20:00.969 [http-nio-8088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-30 14:20:00.975 [http-nio-8088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-08-30 14:20:00.991 [http-nio-8088-exec-2] INFO  com.avenir.utils.LogUtils - line: >>>>>>7,2019/6/24 16:34,欧阳李彬,18070460799,002282,LSGUL8AL4HA091882,吉安,是,362425199501150012,362425199501150012,吉安市青原区,2019/6/27 11:00,2019/6/30 11:00,3,GL8,8014,否,赵丹,,,,,,,,2019/6/24 16:56,8027,是,商务车,否,,,,,用户表示行程变更，取消,13744207468526
+2019-08-30 14:20:01.006 [http-nio-8088-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-08-30 14:20:01.102 [http-nio-8088-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-08-30 14:20:01.191 [http-nio-8088-exec-2] INFO  com.avenir.utils.LogUtils - line: >>>>>>34,2019/6/4 18:25,蔡星,18913515232,006818,LSGZJ55L5JH033457,三亚,是,320511198807141224,320511198807141224,三亚海棠湾,2019/6/25 11:00,2019/6/28 11:00,3,GL8,8057,是,赵丹,,2019/6/5 10:28,海棠湾免税店服务点,三亚海棠区海棠湾免税店正对面公共厕所旁边的大停车场,18689859832,神州租车,是,2019/6/5 10:28,8027,是,商务车,是,2017别克GL8,1448,1406.7,15597020427903,用户来电预约服务时提供的姓名是：陈绽雄，因之前神舟会员姓名是蔡星，已告知用户，用户表示把名字更改成蔡星,7526513676743
+2019-08-30 14:20:01.242 [http-nio-8088-exec-2] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1448
+2019-08-30 14:20:01.243 [http-nio-8088-exec-2] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1406.7
+2019-08-30 14:20:01.243 [http-nio-8088-exec-2] INFO  com.avenir.utils.LogUtils - line: >>>>>>42,2019/6/18 11:05,郑友亮,18049999973,007083,LSGZJ55L9JH122075,上海,是,352230199108070310,352230199108070310,上海松江区,2019/6/21 19:00,2019/6/25 14:00,3,GL8,8057,是,赵丹,,2019/6/18 12:56,九亭店, 九亭镇沪松公路1399弄九久青年城256号商铺近沪亭南路（地铁九号线1号口出向前200米右转蒲汇塘桥边）自助取还车区：店面正前第一排车位,18121285585,神州租车,是,2019/6/18 12:56,8027,是,商务车,是,2017别克GL8,1768,1768,15608339497457,该订单总费用为2541元，原订单时间：2019/6/24 19:00，用户自行多租一天，三天尊享服务费，150元，费用为773，用户表示自己还有一辆avenir车，不想支付费用，想直接扣这辆车的服务次数，卡号为007099，上海已同意,2687396696861
+2019-08-30 14:20:01.279 [http-nio-8088-exec-2] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1768
+2019-08-30 14:20:01.279 [http-nio-8088-exec-2] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1768
+2019-08-30 14:20:01.279 [http-nio-8088-exec-2] INFO  com.avenir.utils.LogUtils - line: >>>>>>44,2019/6/28 9:29,郑友亮,18049999973,007099,LSGZJ55L8JH122360,上海,是,352230199108070310,352230199108070310,上海松江区,2019/6/21 19:00,2019/6/25 14:00,3,GL8,8057,是,赵丹,,2019/6/18 12:56,九亭店, 九亭镇沪松公路1399弄九久青年城256号商铺近沪亭南路（地铁九号线1号口出向前200米右转蒲汇塘桥边）自助取还车区：店面正前第一排车位,18121285585,神州租车,是,2019/6/18 12:56,8027,是,商务车,是,2017别克GL8,773,773,15608339497457,该用户是使用007083这个黑卡进行租车，因多租一天，要求扣007099这张卡上的租赁次数，上海已同意,7042869477845
+2019-08-30 14:20:01.332 [http-nio-8088-exec-2] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:773
+2019-08-30 14:20:01.332 [http-nio-8088-exec-2] INFO  com.avenir.utils.LogUtils - relMoney m>>>:773
+2019-08-30 14:20:01.332 [http-nio-8088-exec-2] INFO  com.avenir.utils.LogUtils - line: >>>>>>122,2019/6/26/10:50,吴亮,15069890794,013007,LSGZJ55L6JH212851,泰安,是,362523198401190813,362523198401190813,山东省泰安市明堂路乐活小镇乐活超市,2019/7/4 10:00,2019/7/7 10:00,3,GL8,8071,是,赵丹,,2019/6/26 11:06,泰安高铁站门店,泰安市岱岳区泰安高铁站下沉广场A-24,18562323145,一嗨租车,否,2019/6/26 11:06,赵丹,是,商务车,是,上汽大通G10,1094,1094,1187194473,用户来电修改订单时间，录音编号：8981698381082,系统问题无录音编号
+2019-08-30 14:20:01.373 [http-nio-8088-exec-2] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.text.ParseException: Unparseable date: "2019/6/26/10:50"] with root cause
+java.text.ParseException: Unparseable date: "2019/6/26/10:50"
+	at java.text.DateFormat.parse(DateFormat.java:366)
+	at com.avenir.utils.DateUtils.formatDate(DateUtils.java:18)
+	at com.avenir.controller.OrdersController.importDatar(OrdersController.java:746)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-30 14:21:29.003 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>7,2019/6/24 16:34,欧阳李彬,18070460799,002282,LSGUL8AL4HA091882,吉安,是,362425199501150012,362425199501150012,吉安市青原区,2019/6/27 11:00,2019/6/30 11:00,3,GL8,8014,否,赵丹,,,,,,,,2019/6/24 16:56,8027,是,商务车,否,,,,,用户表示行程变更，取消,13744207468526
+2019-08-30 14:21:29.041 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>34,2019/6/4 18:25,蔡星,18913515232,006818,LSGZJ55L5JH033457,三亚,是,320511198807141224,320511198807141224,三亚海棠湾,2019/6/25 11:00,2019/6/28 11:00,3,GL8,8057,是,赵丹,,2019/6/5 10:28,海棠湾免税店服务点,三亚海棠区海棠湾免税店正对面公共厕所旁边的大停车场,18689859832,神州租车,是,2019/6/5 10:28,8027,是,商务车,是,2017别克GL8,1448,1406.7,15597020427903,用户来电预约服务时提供的姓名是：陈绽雄，因之前神舟会员姓名是蔡星，已告知用户，用户表示把名字更改成蔡星,7526513676743
+2019-08-30 14:21:29.075 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1448
+2019-08-30 14:21:29.075 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1406.7
+2019-08-30 14:21:29.075 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>42,2019/6/18 11:05,郑友亮,18049999973,007083,LSGZJ55L9JH122075,上海,是,352230199108070310,352230199108070310,上海松江区,2019/6/21 19:00,2019/6/25 14:00,3,GL8,8057,是,赵丹,,2019/6/18 12:56,九亭店, 九亭镇沪松公路1399弄九久青年城256号商铺近沪亭南路（地铁九号线1号口出向前200米右转蒲汇塘桥边）自助取还车区：店面正前第一排车位,18121285585,神州租车,是,2019/6/18 12:56,8027,是,商务车,是,2017别克GL8,1768,1768,15608339497457,该订单总费用为2541元，原订单时间：2019/6/24 19:00，用户自行多租一天，三天尊享服务费，150元，费用为773，用户表示自己还有一辆avenir车，不想支付费用，想直接扣这辆车的服务次数，卡号为007099，上海已同意,2687396696861
+2019-08-30 14:21:29.112 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1768
+2019-08-30 14:21:29.112 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1768
+2019-08-30 14:21:29.112 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>44,2019/6/28 9:29,郑友亮,18049999973,007099,LSGZJ55L8JH122360,上海,是,352230199108070310,352230199108070310,上海松江区,2019/6/21 19:00,2019/6/25 14:00,3,GL8,8057,是,赵丹,,2019/6/18 12:56,九亭店, 九亭镇沪松公路1399弄九久青年城256号商铺近沪亭南路（地铁九号线1号口出向前200米右转蒲汇塘桥边）自助取还车区：店面正前第一排车位,18121285585,神州租车,是,2019/6/18 12:56,8027,是,商务车,是,2017别克GL8,773,773,15608339497457,该用户是使用007083这个黑卡进行租车，因多租一天，要求扣007099这张卡上的租赁次数，上海已同意,7042869477845
+2019-08-30 14:21:29.153 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:773
+2019-08-30 14:21:29.153 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:773
+2019-08-30 14:21:29.153 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>122,2019/6/26 10:50,吴亮,15069890794,013007,LSGZJ55L6JH212851,泰安,是,362523198401190813,362523198401190813,山东省泰安市明堂路乐活小镇乐活超市,2019/7/4 10:00,2019/7/7 10:00,3,GL8,8071,是,赵丹,,2019/6/26 11:06,泰安高铁站门店,泰安市岱岳区泰安高铁站下沉广场A-24,18562323145,一嗨租车,否,2019/6/26 11:06,赵丹,是,商务车,是,上汽大通G10,1094,1094,1187194473,用户来电修改订单时间，录音编号：8981698381082,系统问题无录音编号
+2019-08-30 14:21:29.192 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1094
+2019-08-30 14:21:29.192 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1094
+2019-08-30 14:21:29.192 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>124,2019/7/2 13:13,胡鸿斌,15554080088,012494,LSGZJ55L8JH190643,菏泽,是,372930197205120036,372930197205120036,菏泽火车站店,2019/7/4 12:00,2019/7/7 12:00,3,GL8,8014,是,赵丹,,,菏泽火车站店,山东省菏泽市牡丹区中华路138号紫金国际地下二层停车场内,18769070706,神州租车,是,2019/7/2 13:42,赵丹,是,商务车,否,,,,,因没有商务车，用户取消,15942407564406
+2019-08-30 14:21:29.226 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>37,2019/6/24 15:30,郭世忠,18638118137,006099,LSGZJ55L2JH035117,重庆,是,410126197505243313,410126197505243313,重庆机场,2019/6/27 14:00,2019/7/2 14:00,3,GL8,8014,是,赵丹,,2019/6/24 16:59,重庆江北机场T2航站楼店,T2航站楼接机地址：T2B航站楼国内出发层7号口；T3航站楼接机地址：停车楼2F中央区（国内到达6、7号门出航站楼直行约200米，乘扶梯往下即停车楼2层中央区）。请在到达接机地址后致电17830727063 、13368386983,13368386983,神州租车,是,2019/6/24 16:59,8027,是,商务车,是,别克昂科威,1082,1833,15613670592675 ,用户原订单时间：2019/6/30 14:00:00，用户自行续租到7月2号13:50，前三天费用1082，需要用户自行支付751元，待用户支付,11164154850967
+2019-08-30 14:21:29.258 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1082
+2019-08-30 14:21:29.259 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1833
+2019-08-30 14:21:29.259 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>38,2019/6/30 18:04,胥德辉,15090929928,006558,LSGZJ55L9JH035227,宜昌,是,36042119870929263x,36042119870929263x,宜昌伍家岗区,2019/7/3 9:00,2019/7/6 9:00,3,GL8,8057,否,赵丹,,2019/7/1 10:47,,,,一嗨租车,否,2019/7/1 10:47,,是,商务车,否,,,,,宜昌没有商务车用户表示取消服务,4498795223380
+2019-08-30 14:21:29.291 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>111,2019/6/13 18:47,范志杰,13813956858,013852,LSGUL8AL5JA081030,深圳,是,420281198012124638,420281198012124638,深圳市大梅沙盐梅路92号大梅沙雅兰酒店,2019/7/6 12:00,2019/7/9 12:00,3,Gl8,8057,是,赵丹,,2019/6/14 13:43,横岗中心小学自助点,深圳市龙岗区富康路85号横岗中心小学东北门,13570860632,神州租车,是,2019/6/14 13:43,8027,否,商务车,是,2017别克GL8,1415,1699,15604912624134,用户自行更改订单，原订单时间：2019/7/1 13:00:00，到2019/7/4 13:00:00；因调整时间，所以租车费用有变更，6号到9号的租车费用为1549元，用户自行添加一项尊享服务费，一天50元，3天一共150元，待用户支付,490964140462
+2019-08-30 14:21:29.320 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1415
+2019-08-30 14:21:29.321 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1699
+2019-08-30 14:21:29.321 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>123,2019/6/28 19:03,李春伟,13691559060,012596,LSGZJ55L2JH195434,北京,是,530402198601091513,530402198601091513,北京市海淀区玉泉路15号院,2019/7/5 13:00,2019/7/8 13:00,3,GL8,8070,是,赵丹,,2019/6/29 17:54,玉泉路地铁站自助点,北京市石景山区2号东北60米（北京国际雕塑公园）,18001300891,神州租车,是,2019/6/29 17:54,赵丹,是,商务车,是,17别克GL8,1901,1951,15618022786327,,12804300815583
+2019-08-30 14:21:29.350 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1901
+2019-08-30 14:21:29.350 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1951
+2019-08-30 14:21:29.350 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>125,2019/7/8 16:15,时磊,15902233925,007925,LSGZJ55L0JH030238,天津市,是,120101198401132019,120101198401132019,天津市南开区,2019/7/11 16:00,2019/7/14 16:00,3,GL8,8057,是,高鹏,,2019/7/8 17:33,华苑自助点,天津市迎水道与梅苑路交口人人乐超市门口停车场,18920029383,神州租车,是,2019/7/8 17:33,高鹏,是,商务车,是,2017别克GL8,1514,1664,15625785508372,用户自行添加尊享服务费，一共150元，待用户支付,2144460122073
+2019-08-30 14:21:29.393 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1514
+2019-08-30 14:21:29.393 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1664
+2019-08-30 14:21:29.393 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>43,2019/6/19 19:44,蒲江,18913580532,013642,LSGZJ55L0LH001289,绵阳,是,513022198401096195,513022198401096195,绵阳市北川羌族自治县桂溪村,2019/7/6 19:00,2019/7/9 19:00,3,GL8,8071,否,赵丹,,,,,,,,2019/6/25 9:58,8027,是,商务车,否,,,,,用户表示取消服务,1043030048026
+2019-08-30 14:21:29.430 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>45,2019/7/2 16:04,任晓倩,15248041132,007637,LSGZJ55L4JH141245,呼和浩特,是,152625199207116023,152625199207116023,呼和浩特玉泉区,2019/7/5 11:00,2019/7/8 11:00,3,都可以（尽量是商务车）,8014,是,赵丹,,2019/7/2 16:22,南茶坊自助点,玉泉区鼎丰丽景天下西门南侧停车场内,18747987769,神舟租车,是,2019/7/2 16:22,8027,是,商务车,否,,1934,,15620560087556,用户使用15771332136此号码自行致电神舟取消订单,831846338807
+2019-08-30 14:21:29.476 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1934
+2019-08-30 14:21:29.476 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>46,2019/7/3 14:27,池志锋,13560312197,007255,LSGZJ55L0JH127715,广州,是,440106198306190313,440106198306190313,广州市天河区,2019/7/8 10:00,2019/7/11 10:00,3,GL8,8057,是,赵丹,,2019/7/3 15:06,广州火车东站店,天河区林和中路广州东站停车场入口右侧（广州东站内5号门出口右转100米、广州东站地铁站F出口对面），18922743902,18922743902,神舟租车,是,2019/7/3 15:06,8027,是,商务车,是,2017别克GL8,2036,2186,15621378234165,用户自行添加尊享服务费，一天50元，一共150元，待用户支付。,5989583341202
+2019-08-30 14:21:29.512 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2036
+2019-08-30 14:21:29.512 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2186
+2019-08-30 14:21:29.512 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>113,2019/6/28 14:24,王迪,13693344934,008410,LSGUL8AL5JA100580,北京,是,110108198811014210,110108198811014210,北京市海淀区万寿路,2019/7/12 16:00,2019/7/15 16:00,3,GL8,8070,是,赵丹,,2019/6/28 14:56,五棵松店,海淀区五棵松桥北桥下空间停车场（地铁1号线至五棵松站下车，B2出口向北步行50米即到）,18910887568,神州租车,是,2019/6/28 14:56,8027,是,商务车,是,2017别克GL8,1865,1865,15617052543052,,4570863499768
+2019-08-30 14:21:29.550 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1865
+2019-08-30 14:21:29.551 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1865
+2019-08-30 14:21:29.552 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>46,2019/7/7 20:44,郝志国,18030618999,007635,LSGZJ55L3JH141060,呼和浩特,是,150104199112074114,150104199112074114,呼和浩特乌兰察布东路园艺所艺苑公寓,2019/7/13 9:00,2019/7/16 9:00,3,GL8,8071,是,赵丹,,2019/7/8 15:30,呼和浩特白塔机场店,白塔机场航站楼一层国内到达厅内神州租车柜台（1号门西侧）,13739917679,神州租车,是,2019/7/8 15:30,8027,是,商务车,是,2017别克GL8,1910,1870.2,15625713022951,,
+2019-08-30 14:21:29.588 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1910
+2019-08-30 14:21:29.588 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1870.2
+2019-08-30 14:21:29.588 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>49,2019/7/13 10:03,陈春丰,13646860070,007693,LSGZJ55L4JH034227,嘉兴,是,330726198602211118,330726198602211118,嘉兴市嘉善县,2019/7/15 10:00,2019/7/16 10:00,1,商务车7座自动挡,8059,是,梁宇超,,2019/7/13 10:48,嘉善高铁便捷点,嘉兴市嘉善县大云镇蒋家村（近善江公里）,18268316735,一嗨租车,否,2019/7/13 10:35,8021,是,商务车,是,上汽大通G10,295,,1187465579,用户来电取消，原因是行程变更，因没有提前24小时扣一次次数，用户认同,
+2019-08-30 14:21:29.624 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:295
+2019-08-30 14:21:29.624 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>128,2019/7/14 22:00,孙裕,18878785698,012999,LSGZJ55L3JH212189,南宁,是,450103199702282014,450103199702282014,南宁市兴宁区,2019/7/19 19:00,2019/7/22 19:00,3,GL8,8070,是,赵丹,,2019/7/17 17:27,瀚林山水源送车点,南宁南梧路6号翰林山水源小区南门,07713259289,一嗨租车,是,2019/7/17 17:27,赵丹,是,商务车,否,上汽大通G10,1070,,1187540329,用户来电取消订单,378132261026
+2019-08-30 14:21:29.660 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1070
+2019-08-30 14:21:29.660 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>129,2019/7/19 16:30,陈锋,13655005547,007519,LSGZJ55L7JH139389,福州市,是,350524197712221590,350524197712221590,福州市仓山区,2019/7/19 18:00,2019/7/22 18:00,3,GL8,8057,是,赵丹,,2019/7/19 16:56,白湖亭自助点,福州市仓山区连江南路与双湖三路交叉口中国移动门口（白湖亭公交总站对面）,18558615355,神舟租车,是,2019/7/19 16:56,赵丹,是,商务车,是,2017别克GL8,1598,1598,15635275533608,83019312@qq.com,9727209104318
+2019-08-30 14:21:29.692 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1598
+2019-08-30 14:21:29.692 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1598
+2019-08-30 14:21:29.692 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>42,2019/7/20 21:53,陈敏臻,18711628327,006756,LSGZJ55L7JH035159,上海,是,430702198203282018,430702198203282018,上海市浦东新区绿地假日酒店,2019/7/24 8:00,2019/7/27 8:00,3,轿车,8057,是,梁宇超,,2019/7/21 11:27,一嗨租车(周浦店),上南路6872号（上南路沪南公路）,02168072615,一嗨租车,是,2019/7/21 11:20,梁宇超,是,用户想要沪牌能上高架的轿车,是,,530,,1187604829,用户在7/24 9:18自行致电一嗨取消服务，因已经过了取车时间，扣一次服务次数,12156550114852
+2019-08-30 14:21:29.725 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:530
+2019-08-30 14:21:29.725 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>50,2019/7/15 14:56,刘学佳,15730595435,007408,LSGZJ55L5JH136328,重庆,是,511203198005125150,511203198005125150,重庆市万州区一品江南一栋一单元502,2019/7/19 16:00,2019/7/22 16:00,3,Gl8,5071,是,赵丹,,2019/7/15 16:17,万州北滨店,北滨路2段172号（天江郦城）,02358122859,一嗨租车,否,2019/7/15 16:17,8027,是,商务车,否,全新胜达,854,,1187503590,用户需要知晓都有什么类型的商务车；用户表示不满意车型，暂时取消,因系统问题，没有该通录音
+2019-08-30 14:21:29.759 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:854
+2019-08-30 14:21:29.759 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>52,2019/7/17 8:49,王红晶,18561386008,007072,LSGZJ55L9JH121959,青岛,是,230710198501090623,230710198501090623,青岛城阳区,2019/7/19 9:00,2019/7/22 9:00,3,GL8,8014,是,益普索,,2019/7/17 10:19,流亭机场店,青岛市城阳区天河路与海关路路口西北角停车场内（天河路小学东200米停车场内）,18863958129,神州租车,是,2019/7/17 10:19,8027,是,商务车,是,2017别克GL8,1960,1960,15633308678182,,15622740652858
+2019-08-30 14:21:29.793 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1960
+2019-08-30 14:21:29.793 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1960
+2019-08-30 14:21:29.793 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>53,2019/7/17 9:54,焦健,13866140528,007613,LSGZJ55L2JH140823,合肥,是,340111197711017517,340111197711017517,合肥蜀山区,2019/7/24 9:00,2019/7/27 9:00,3,GL8,8014,是,益普索,,2019/7/17 10:44,大溪地服务点,怀宁路与金大地1912北大街交叉口东北100米大溪地国际商业广场停车场负二层D区,13635690935,神州租车,是,2019/7/17 10:44,8027,是,商务车,是,别克GL8,1219,874,15633327502830,,7433159505184
+2019-08-30 14:21:29.822 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1219
+2019-08-30 14:21:29.822 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:874
+2019-08-30 14:21:29.822 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>54,2019/7/17 18:48,陈超,15261878777,013319,LSGZJ55L9JH241020,南京,是,321183198602160852,321183198602160852,江宁区竹山路地铁站店,2019/7/22 8:00,2019/7/25 8:00,3,轿车,8014,是,赵丹,,2019/7/18 11:27,竹山路地铁站店,江宁区竹山路500-10号商铺（地铁竹山路站2号出口向南250米）,18914483891,神州租车,是,2019/7/18 11:27,8027,是,商务车,是,2017别克GL8,2069,2447,15634207820776,用户邮箱：2510829994@qq.com；邮费278元，加油服务费100元，一共378元，需要用户自行支付，待支付,9480149777641
+2019-08-30 14:21:29.851 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2069
+2019-08-30 14:21:29.851 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2447
+2019-08-30 14:21:29.851 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>55,2019/7/18 10:39,张佳艺,13916610691,013551,LSGZJ55L3KH074459,成都,是,310109198105064513,310109198105064513,成都青羊区丽思卡尔顿酒店,2019/7/26 14:00,2019/7/28 14:00,2,GL8,8071,是,赵丹,,2019/7/18 12:23,双流机场店,成都市双流区航枢大道700号富园国际物流停车场内,028-85611131,神州租车,是,2019/7/18 12:23,8027,是,商务车,是,2017别克GL8,1829,1754,15634242090028,用户邮箱：8179561@qq.com,4955581238229
+2019-08-30 14:21:29.881 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1829
+2019-08-30 14:21:29.881 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1754
+2019-08-30 14:21:29.881 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>56,2019/7/18 13:32,徐李峰,13218081737,007650,LSGZJ55L7JH14143,南京,是,320684198202147416,320684198202147416,南京市江宁区双麒路102号,2019/7/23 8:00,2019/7/26 8:00,3,GL8,8071,是,赵丹,,2019/7/18 13:51,南京南站店,六朝路证大喜马拉雅J座地下停车场负三层K区（南站南广场出站左拐步行至六朝路和金阳东街交口，沿六朝路向南（右拐）直行100米，红绿灯过马路至马路对面左前方苏宁小店，到达J座，乘电梯至负三层即到）,15365179300,神州租车,是,2019/7/18 13:51,8027,是,商务车,否,2017别克GL8,2158,,15634301761767,用户邮箱：1961459258@qq.com/用户时间来不及，不租了。,867048374146
+2019-08-30 14:21:30.029 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - u.getId: 12370
+2019-08-30 14:21:30.030 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2158
+2019-08-30 14:21:30.030 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>8,2019/7/19 22:50,温雪红,18604471795,003826,LSGUL8AL3HA139694,成都,是,22022119660302090x,22022119660302090x,成都市锦江区东方广场商业中心一栋2单元,2019/7/26 9:00,2019/7/29 9:00,3,GL8,8071,是,梁宇超,,2019/7/20 17:45,春熙路服务点,锦江区华兴正街54锦江剧场地下停车场内,028-86715953,神州租车,是,2019/7/20 17:45,梁宇超,是,商务车,是,别克GL8,2624,2774,15636165068421,,8434036443826
+2019-08-30 14:21:30.066 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2624
+2019-08-30 14:21:30.066 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2774
+2019-08-30 14:21:30.066 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>127,2019/7/12 17:55,于海峰,15045874080,007526,LSGZJ55L4JH139396,大庆,是,230621199401181251,230621199401181251,大庆萨尔图区,2019/7/26 10:30,2019/7/29 10:30,3,都可以,8014,是,梁宇超,,2019/7/13 11:03,萨尔图区新村店,萨尔图区纬十二路72号,15246135000,一嗨租车,否,2019/7/13 10:53,梁宇超,是,路虎揽胜极光,是,路虎揽胜极光,2114,1416,1187465907,,1072397052074
+2019-08-30 14:21:30.099 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2114
+2019-08-30 14:21:30.099 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1416
+2019-08-30 14:21:30.099 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>39,2019/7/2 9:55,黄洁平,15820264229,006561,LSGZJ55L5JH029649,广州,是,44011119870421246X,44011119870421246X,广州天河区,2019/7/26 16:00,2019/7/29 16:00,3,GL8,8014,是,赵丹,,2019/7/2 10:13,车陂店,广州市天河区中山大道190号骏景花园（东御苑）停车场,18102810620,神州租车,是,2019/7/2 10:13,8027,是,商务车,是,2017别克GL8,2267,2577,15620340999385,,12341766495536
+2019-08-30 14:21:30.131 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2267
+2019-08-30 14:21:30.131 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2577
+2019-08-30 14:21:30.131 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>43,2019/7/22 15:27,刘建铭,18005355579,006076,LSGZJ55L1JH034556,烟台,是,370611199210060316,370611199210060316,烟台开发区,2019/7/26 15:00,2019/7/29 15:00,3,GL8,8014,是,赵丹,,2019/7/22 15:46,开发区彩云城服务点,烟台市经济技术开发区长江路188号（速八酒店旁）,15653557201,神州租车,是,2019/7/22 15:46,8027,是,最好是商务车,是,2017别克GL8,2672,2672,15637817660628,534555285@qq.com,4002842022805
+2019-08-30 14:21:30.163 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2672
+2019-08-30 14:21:30.163 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2672
+2019-08-30 14:21:30.163 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>45,2019/7/24 14:45,周秀妍,13822255120,010575,LSGUL8AL4KA120532,上海,是,440104198208262245,440104198208262245,上海市闵行区银亭路,2019/7/26 15:00,2019/7/29 15:00,3,商务车,8059,是,赵丹,,2019/7/24 15:07,吴中路卜蜂莲花自助点,自助指引 http://qpic.cn/WBKfsCB4c 吴中路1218号(近合川路) 卜蜂莲花停车场内，自助取车区：停车场入口左手专用15个车位，自助还车区：停车场入口右手专用15个车位,18121285589,神州租车,是,2019/7/24 15:07,8027,是,商务车,是,2017别克GL8,1847,2077,15639526938111,1208499237@qq.com,6518678547383
+2019-08-30 14:21:30.192 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1847
+2019-08-30 14:21:30.192 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2077
+2019-08-30 14:21:30.192 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>47,2019/7/9 14:30,章平,18926008502,006452,LSGZJ55L6JH101362,深圳,是,430723199408190818,430723199408190818,深圳市龙华区,2019/7/26 14:00,2019/7/29 14:00,3,GL8,8059,是,赵丹,,2019/7/9 15:40,龙胜自助点,深圳市龙华新区和平路与布龙路交汇处366号特发和平里一期（地铁4号线龙胜地铁站A1出口即到）,13691662196,神州租车,是,2019/7/9 15:40,8027,是,商务车,是,2017别克GL8,1865,2015,15626584594089,用户更改时间,1301150435472
+2019-08-30 14:21:30.221 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1865
+2019-08-30 14:21:30.221 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2015
+2019-08-30 14:21:30.222 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>48,2019/7/12 14:24,许峰,18055128668,006843,LSGZJ55L7JH109955,乌鲁木齐,是,650102198006290711,650102198006290711,乌鲁木齐新市区,2019/7/27 12:00,2019/7/30 12:00,3,GL8,8027,是,赵丹,,2019/7/12 15:06,新疆昆仑宾馆送车点,乌鲁木齐市沙依巴克区友好北路146号,09913555050,一嗨租车,是,2019/7/12 15:06,8027,是,SUV,否,大众探岳四驱,2459,,1187453274,客户行程改变，要求取消，已取消订单。,6904657199877
+2019-08-30 14:21:30.250 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2459
+2019-08-30 14:21:30.250 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>57,2019/7/24 17:02,南萌,18669406071,007864,LSGZJ55L0JH160164,青岛,是,370305198806070736,370305198806070736,青岛市黄岛区,2019/8/1 15:30,2019/8/4 15:30,3,商务车,8059,是,赵丹,,2019/7/24 17:18,金沙滩自助点,青岛市黄岛区漓江西路674号唐岛湾景区停车场内,13295426266,神州租车,是,2019/7/24 17:18,8027,是,商务车,是,2017别克GL8,1934,1934,15639601925695,用户邮箱：356523167@qq.com,473765207020
+2019-08-30 14:21:30.278 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1934
+2019-08-30 14:21:30.278 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1934
+2019-08-30 14:21:30.278 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>9,2019/7/24 13:27,刘刚,18951662321,002730,LSGUL8AL4HA110317,太原,是,320106197003280475,320106197003280475,太原市武宿机场,2019/8/4 10:00,2019/8/7 10:00,3,SUV,8059,是,赵丹,,2019/7/24 13:51,武宿机场便捷点,太榆路199号武宿机场停车场,0351-2507955,一嗨租车,是,2019/7/24 13:51,赵丹,是,suv,是,现代全新胜达,814,814,1187660727,,1104127195775
+2019-08-30 14:21:30.313 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:814
+2019-08-30 14:21:30.313 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:814
+2019-08-30 14:21:30.313 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>10,2019/7/25 14:51,魏敬标,13195532777,002660,LSGUL8AL4HA108180,上海,是,340421197906294038,340421197906294038,上海市普陀区,2019/8/2 10:00,2019/8/5 10:00,3,GL8,8071,是,赵丹,,2019/7/25 17:11,11号线上海西站服务点,自助取还车指引：http://qpic.cn/r4mZuyWa7 11号线上海西站地铁站5号口下B3停车场（5号自动扶梯正下方楼梯进入），开车导航上海西站南广场地下停车场B3靠近出口,021-32206673,神州租车,是,2019/7/25 17:11,赵丹,是,都可以,是,17别克GL8,1768,1344,15640464102679,用户改变用车时间，从7月29日10点-8月1日10点，改为，8月2日10点-8月5日10点。预计金额从1628改为1768,13550746052597
+2019-08-30 14:21:30.347 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1768
+2019-08-30 14:21:30.347 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1344
+2019-08-30 14:21:30.347 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>11,2019/8/1 11:33,匡于彧,18877555559,001612,LSGUL8AL1HA074232,南宁,是,450902198406258039,450902198406258039,南宁市兴宁区,2019/8/6 16:00,2019/8/9 16:00,3,GL8,8070,是,赵丹,,2019/8/1 12:44,广西大学店,南宁市西乡塘区明秀西路118号百汇华庭9号商铺，依心宠物医院旁（地铁1号线广西大学站A出口往前20米左边即到百汇华庭）,13377003778,神州租车,是,2019/8/1 12:44,赵丹,是,都可以,否,17别克GL8,1967,,15646355135642,561563229@qq.com，用户来电取消订单，原因：临时有事,7158754028711
+2019-08-30 14:21:30.381 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1967
+2019-08-30 14:21:30.381 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>12,2019/8/4 14:06,沈长春,13052062888,004973,LSGUL8AL5HA081622,北京,是,320922198303035074,320922198303035074,北京南站店,2019/8/5 14:00,2019/8/8 14:00,3,Gl8,8071,是,梁宇超,,2019/8/4 17:24,北京南站店,丰台区南站幸福路与永外车站路交汇处西北角停车场（南站北出口沿南站幸福路向东300米路北）,18910887539,神州租车,是,2019/8/4 17:24,梁宇超,是,都可以,是,17别克GL8,2850,2938,15649114154383,30702110@qq.com/沟通中，客户要求修改订单信息，订单时间，因账户没有钱，用户垫付，后续为其报销,
+2019-08-30 14:21:30.415 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2850
+2019-08-30 14:21:30.415 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2938
+2019-08-30 14:21:30.415 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>114,2019/8/4 12:19,何斌,15983619873,009135,LSGUL8AL0JA132031,北京,是,510781198804034779,510781198804034779,北京昌平区南口镇马坊村一号长城宾馆,2019/8/7 8:00,2019/8/10 8:00,3,gl8,8071,是,梁宇超,,2019/8/4 15:14,回龙观店,昌平区地铁13号线回龙观站A口向北200米华联购物中心停车场入口处,18910887545,神州租车,是,2019/8/4 15:14,梁宇超,是,商务车,是,2017别克GL8,2761,2761,15649034040720,邮箱：739681516@qq.com,8246056832475/9206485414649
+2019-08-30 14:21:30.444 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2761
+2019-08-30 14:21:30.444 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2761
+2019-08-30 14:21:30.444 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>131,2019/7/29 20:53,程子豪,18531689420,013077,LSGZJ55L0JH217477,北京,是,131002199403212811,131002199403212811,北京市大兴区,2019/8/2 20:00,2019/8/5 20:00,3,GL8,8070,是,梁宇超,,2019/7/30 11:23,北京亦庄店,大兴区亦庄开发区荣京东街荣京丽都大厦A座一层大厅,18910887580,神舟租车,是,2019/7/30 11:23,梁宇超,是,商务车,是,别克GL8,2475,2551.9,15644577246247,1187501759@qq.com，用户自行添加尊享服务费，一天50元，一共150元，已与神舟客服核实，用户没有添加过这一项费用，是门店自行添加，门店表示已经将这笔费用微信支付给乘客，该笔订单总费用为2625元，因用户还车时的油量比取车时的油量多，需要反用户73.1，这笔费用直接在我司账户抵扣，所以用户需要支付我司76.9元，用户已支付,17265618658563
+2019-08-30 14:21:30.474 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2475
+2019-08-30 14:21:30.474 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2551.9
+2019-08-30 14:21:30.474 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>132,2019/7/31 17:10,解生冕,13342816085,012724,LSGZJ55L8JH197575,鞍山,是,44010619671112197X,44010619671112197X,鞍山市立山区,2019/8/6 9:00,2019/8/9 9:00,3,GL8,8021,是,高鹏,,2019/7/31 17:46,时代家园自助点,鞍山市立山区北胜利路365号 时代家园建材广场停车场,18624623282,神舟租车,否,2019/7/31 17:46,梁宇超,是,商务车,是,雪佛兰科帕奇四驱,836,836,15645666775952,6455406@qq.com,16073056964311
+2019-08-30 14:21:30.504 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:836
+2019-08-30 14:21:30.504 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:836
+2019-08-30 14:21:30.504 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>134,2019/8/2 16:04,董吉平,18630452380,012608,LSGZJ55L1JH195506,廊坊市,是,511526199106132427,511526199106132427,廊坊市三河市燕郊开发区,2019/8/5 10:00,2019/8/8 10:00,3,GL8,8057,否,梁宇超,,,,,,神州租车,否,2019/8/3 10:56,梁宇超,否,商务车,否,,,,,779120471@qq.com，客户无信用卡，暂不下单。,15270990515782
+2019-08-30 14:21:30.533 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>136,2019/8/4 17:04,李煜,13806210078,013718,LSGZJ55L6LH003595,三亚,是,320503197403062517,320503197403062517,三亚亚龙湾华宇度假酒店,2019/8/7 12:00,2019/8/10 12:00,3,Gl8,8071,是,赵丹,,2019/8/5 12:20,亚龙湾亚泰美食街中心便捷点,吉阳区亚龙湾路111号,18889789987,一嗨租车,是,2019/8/5 12:20,赵丹,是,轿车,是,大众斯柯达明锐,464,464,1187870019,13806210078@139.com,121983981870
+2019-08-30 14:21:30.561 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:464
+2019-08-30 14:21:30.561 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:464
+2019-08-30 14:21:30.561 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>39,2019/7/12 15:09,张阿青,13336097953,008011,LSGUL8AL7JA082745,秦皇岛,是,332624198301160015,332624198301160015,秦皇岛火车站,2019/8/3 16:00,2019/8/6 16:00,3,GL8,8014,是,赵丹,,2019/7/12 15:31,秦皇岛火车站,秦皇岛海港区北环路与民族路交口紫金嘉府底商201,03353630201,一嗨租车,是,2019/7/12 15:31,8027,是,商务车,是,上汽大通G10,1619,1698,1187453642, 用户16:46还车，产生超时费79元，用户已支付,8227579017237
+2019-08-30 14:21:30.589 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1619
+2019-08-30 14:21:30.589 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1698
+2019-08-30 14:21:30.589 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>43,2019/7/23 15:22,邵佳琛,13962378268,006796,LSGZJ55L3JH033456,常熟,是,320520197412242233,320520197412242233,常熟汽车北站服务点,2019/8/7 19:00,2019/8/10 19:00,3,GL8,8014,是,赵丹,,2019/7/23 15:51,常熟汽车北站服务点,海虞北路58号常熟旅游集散服务中心大厅内9号柜台。自助取还区域：常熟客运北站南侧淮河路街边免费划线车位。（避免违停贴条，请按序停放）,18012619066,神州租车,是,2019/7/23 15:51,8027,是,商务车,是,2017别克GL8,1499,2192,15638712661513,13962378268@139.com 用户自行更改时间，原时间为8/6 19:00 取车 8/9号 19:00 还车,16032689763954
+2019-08-30 14:21:30.616 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1499
+2019-08-30 14:21:30.616 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2192
+2019-08-30 14:21:30.616 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>45,2019/8/1 13:29,潘东良,13586411717,010503,LSGUL8AL1KA119936,沈阳,是,330419198112283418,330419198112283418,沈阳机场,2019/8/5 9:00,2019/8/6 18:00,1,GL8,8070,是,赵丹,,2019/8/1 13:59,沈阳北站店,沈阳市沈河区北站路73号如家精选酒店负一层（下火车从北站南广场南二出口出，直行200米即是），电话:17642069966,17642069966,神州租车,是,2019/8/1 13:59,8027,是,商务车,是,2017别克GL8,1800,1900,15646394124990,用户邮箱：185220305@qq.com，异店还车费100元，待用户支付,8954826156560
+2019-08-30 14:21:30.642 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1800
+2019-08-30 14:21:30.642 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1900
+2019-08-30 14:21:30.642 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>50,2019/7/16 10:02,郭欣荣,18911615583,013522,LSGZJ55L5KH060580,北京,是,150105198209227342,150105198209227342,北京市海淀区志新西路,2019/8/8 17:00,2019/8/11 17:00,3,GL8,8059,是,杨瑞,,2019/7/16 11:00,知春路店,海淀区地铁10号线知春路站F口出，出站右后方停车场（地铁口西侧70米）,13331155118,神州租车,是,2019/7/16 11:00,8027,是,商务车,是,2017别克GL8,1924,2314,15632483930659,客户来电修改订单为：8月8日17点取-8月11日17点还。,3472329044013
+2019-08-30 14:21:30.667 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1924
+2019-08-30 14:21:30.667 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2314
+2019-08-30 14:21:30.667 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>57,2019/7/27 14:54,姜磊,15005342333,013260,LSGZJ55L8JH240506,丽江,是,372401197209112739,372401197209112739,丽江机场,2019/8/2 8:00,2019/8/5 8:00,3,轿车,8014,是,梁宇超,,2019/7/28 11:06,三义机场便捷点,丽江三义机场出发二号门（实际还车地址：丽江三义机场居家酒店0,08724340988,一嗨租车,无,2019/7/27 16:42,8021,是,轿车,是,大众迈腾,878,878,1187729396,用户邮箱：664990257@qq.com,246984714607
+2019-08-30 14:21:30.692 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:878
+2019-08-30 14:21:30.693 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:878
+2019-08-30 14:21:30.693 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>58,2019/7/30 20:30,魏林,18080077168,006885,LSGZJ55L6JH112250,西宁,是,511025198701118568,511025198701118568,西宁高铁站,2019/8/3 10:30,2019/8/10 10:30,3,商务车,8014,是,梁宇超,,2019/7/31 16:11,西宁高铁站店,西宁市城东区祁连路火车站站前广场西公交汽车站（海宁皮革）负一层商铺通道内西四商铺和西七商铺,15352901714,神州租车,是,2019/7/31 16:11,8021,是,商务车,是,2017别克GL8,3866,8651,15645608403348,用户邮箱：5944207@qq.com，用户自行将订单更改到2019-08-10 10:30还车，2019-08-03 10:30取车,11643447372025
+2019-08-30 14:21:30.718 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:3866
+2019-08-30 14:21:30.718 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:8651
+2019-08-30 14:21:30.718 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>13,2019/8/6 9:01,赵国,13609972699,001006,LSGUL8AL6HA053456,上海,是,652323197310060013,652323197310060013,上海静安区,2019/8/9 9:00,2019/8/12 9:00,3,GL8,8057,是,韩思雨,,,,,,一嗨租车,是,2019/8/6 16:36,韩思雨,否,商务车,否,,,,,因没有商务车，用户不需要服务，取消,14891400883392
+2019-08-30 14:21:30.742 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>14,2019/8/7 11:33,鲁民,13501391087,003623,LSGUL8AL0HA135666,三亚,是,110108198201118637,110108198201118637,三亚市陵水县清水湾,2019/8/12 9:00,2019/8/15 9:00,3,GL8,8059,是,赵丹,,2019/8/7 12:38,,,,一嗨租车,是,2019/8/7 12:38,赵丹,是,商务车,否,,,,,用户来电取消订单。,12341896262189
+2019-08-30 14:21:30.766 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>40,2019/7/15 16:53,邹瑛,18101810168,009031,LSGUL8ALXJA131226,上海,是,310115198002150424,310115198002150424,上海市奉贤区南桥镇,2019/8/9 9:00,2019/8/12 9:00,3,GL8,8071,是,杨瑞,,2019/7/15 17:27,南桥卜蜂莲花自助点,自助指引 http://qpic.cn/xq7fjOmtA 奉贤区南奉公路8901弄18号商铺，自助取车区：卜蜂莲花地下车库入口右转右手边靠墙15个停车位，自助还车区：左手边15个停车位,18121288973,神州租车,是,2019/7/15 17:27,8027,是,商务车,是,2017别克GL8,1673,1673,15631840461814,,5622495840970
+2019-08-30 14:21:30.789 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1673
+2019-08-30 14:21:30.789 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1673
+2019-08-30 14:21:30.790 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>46,2019/8/3 15:07,焦志强,13833451398,006116,LSGZJ55L3JH030296,石家庄,是,132322196912140018,132322196912140018,石家庄裕华区,2019/8/11 9:00,2019/8/14 9:00,3,商务车,8059,是,梁宇超,,2019/8/3 16:09,石家庄万达自助点,裕华区槐安东路146号和平大厦停车场（槐安路与翟营大街交口西南角停车场）,19931160202,神州租车,是,2019/8/3 16:09,梁宇超,是,商务车,是,2017别克GL8,1760,1910,15648201602897,用户邮箱：jiaozhiqiang@263.net/用户来电修改订单，用户自行添加尊享服务费，3天150元，待用户支付,17489172206398
+2019-08-30 14:21:30.813 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1760
+2019-08-30 14:21:30.813 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1910
+2019-08-30 14:21:30.813 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>59,2019/7/31 12:43,赵伟力,13102642852,013461,LSGZJ55LXKH050806,唐山,是,130225198510037131,130225198510037131,唐山市路北区,2019/8/9 15:00,2019/8/12 15:00,3,商务车,8070,是,梁宇超,,2019/7/31 15:07,国际会展中心自助点,唐山市路北区唐山国际会展中心停车场，龙富南道与建设北路交口入口，直行到头即到,18633449980,神州租车,是,2019/7/31 15:07,8021,是,商务车,是,2017别克GL8,2253,2403,15645573736856,276442840@qq.com 用户来电表示账户余额不足，没有办法取车。已联系上海告知让用户垫付，后为其报销，还车时神舟表示租车费用是企业支付，用户自行添加尊享服务费，待用户支付。,5272980273268
+2019-08-30 14:21:30.837 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2253
+2019-08-30 14:21:30.837 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2403
+2019-08-30 14:21:30.837 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>60,2019/8/6 9:32,丁文诚,13806472329,006499,LSGZJ55L6JH105475,潍坊市,是,370704197310130417,370704197310130417,潍坊市坊子区,2019/8/15 17:00,2019/8/18 17:00,3,商务车,8057,是,韩思雨,,2019/8/6 10:31,,,,一嗨租车,是,2019/8/6 10:31,8014,是,商务车,否,,,,,用户表示考虑一下，后续自行来电,14909822208032
+2019-08-30 14:21:30.859 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>62,2019/8/7 11:49,胡亮,18094220742,013756,LSGZJ55L8LH004750,南京,是,320125199205122035,320125199205122035,南京市雨花台区,2019/8/9 17:00,2019/8/12 17:00,3,商务车,8059,是,赵丹,,2019/8/7 12:03,南京南站高铁站,雨花台区玉盘东街2号金轮星立方广场A区139室,025-86403910,一嗨租车,是,2019/8/7 12:03,8027,是,商务车,否,别克GL8,1679,,1187906898,用户来电取消,4912589047421
+2019-08-30 14:21:30.880 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1679
+2019-08-30 14:21:30.881 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>63,2019/8/9 13:25,支有强,13731361661,007815,LSGZJ55LXJH155991,杭州,是,120106197210200530,120106197210200530,杭州火车城站店,2019/8/14 8:00,2019/8/16 19:00,3,轿车,8014,是,韩思雨,,2019/8/7 13:46,杭州火车城站店,上城区婺江路久融新能源停车场内。取车地址：地铁一号线婺江路站下D出口往汽车南站方向步行100米找到黑色铁门进内即到,13336013115,一嗨租车,否,2019/8/9 13:52,8014,是,轿车,是,大众迈腾,776,,1187944046,用户致电一嗨客服取消订单，没有提前24小时扣一次服务次数,7496166115579
+2019-08-30 14:21:30.902 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:776
+2019-08-30 14:21:30.902 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>64,2019/8/10 8:38,骆刘,13982225362,007219,LSGZJ55L9JH123162,西双版纳,是,510122198310048326,510122198310048326,西双版纳告庄双景,2019/8/12 9:00,2019/8/14 17:00,3,轿车,8059,是,韩思雨,,2019/8/10 9:45,"告庄西双景便捷点,",西双版纳州景洪市告庄西双景大门口右侧100米停车场内,18008816303,一嗨租车,否,2019/8/10 9:23,8014,是,SUV,是,别克昂科拉,779,779,1187957401,,2053586047663
+2019-08-30 14:21:30.932 [http-nio-8088-exec-4] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.text.ParseException: Unparseable date: "否"] with root cause
+java.text.ParseException: Unparseable date: "否"
+	at java.text.DateFormat.parse(DateFormat.java:366)
+	at com.avenir.utils.DateUtils.formatDate(DateUtils.java:18)
+	at com.avenir.controller.OrdersController.importDatar(OrdersController.java:766)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-30 14:32:01.565 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>7,2019/6/24 16:34,欧阳李彬,18070460799,002282,LSGUL8AL4HA091882,吉安,是,362425199501150012,362425199501150012,吉安市青原区,2019/6/27 11:00,2019/6/30 11:00,3,GL8,8014,否,赵丹,,,,,,,,2019/6/24 16:56,8027,是,商务车,否,,,,,用户表示行程变更，取消,13744207468526
+2019-08-30 14:32:01.603 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>34,2019/6/4 18:25,蔡星,18913515232,006818,LSGZJ55L5JH033457,三亚,是,320511198807141224,320511198807141224,三亚海棠湾,2019/6/25 11:00,2019/6/28 11:00,3,GL8,8057,是,赵丹,,2019/6/5 10:28,海棠湾免税店服务点,三亚海棠区海棠湾免税店正对面公共厕所旁边的大停车场,18689859832,神州租车,是,2019/6/5 10:28,8027,是,商务车,是,2017别克GL8,1448,1406.7,15597020427903,用户来电预约服务时提供的姓名是：陈绽雄，因之前神舟会员姓名是蔡星，已告知用户，用户表示把名字更改成蔡星,7526513676743
+2019-08-30 14:32:01.635 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1448
+2019-08-30 14:32:01.635 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1406.7
+2019-08-30 14:32:01.635 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>42,2019/6/18 11:05,郑友亮,18049999973,007083,LSGZJ55L9JH122075,上海,是,352230199108070310,352230199108070310,上海松江区,2019/6/21 19:00,2019/6/25 14:00,3,GL8,8057,是,赵丹,,2019/6/18 12:56,九亭店, 九亭镇沪松公路1399弄九久青年城256号商铺近沪亭南路（地铁九号线1号口出向前200米右转蒲汇塘桥边）自助取还车区：店面正前第一排车位,18121285585,神州租车,是,2019/6/18 12:56,8027,是,商务车,是,2017别克GL8,1768,1768,15608339497457,该订单总费用为2541元，原订单时间：2019/6/24 19:00，用户自行多租一天，三天尊享服务费，150元，费用为773，用户表示自己还有一辆avenir车，不想支付费用，想直接扣这辆车的服务次数，卡号为007099，上海已同意,2687396696861
+2019-08-30 14:32:01.668 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1768
+2019-08-30 14:32:01.668 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1768
+2019-08-30 14:32:01.668 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>44,2019/6/28 9:29,郑友亮,18049999973,007099,LSGZJ55L8JH122360,上海,是,352230199108070310,352230199108070310,上海松江区,2019/6/21 19:00,2019/6/25 14:00,3,GL8,8057,是,赵丹,,2019/6/18 12:56,九亭店, 九亭镇沪松公路1399弄九久青年城256号商铺近沪亭南路（地铁九号线1号口出向前200米右转蒲汇塘桥边）自助取还车区：店面正前第一排车位,18121285585,神州租车,是,2019/6/18 12:56,8027,是,商务车,是,2017别克GL8,773,773,15608339497457,该用户是使用007083这个黑卡进行租车，因多租一天，要求扣007099这张卡上的租赁次数，上海已同意,7042869477845
+2019-08-30 14:32:01.705 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:773
+2019-08-30 14:32:01.705 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:773
+2019-08-30 14:32:01.706 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>122,2019/6/26 10:50,吴亮,15069890794,013007,LSGZJ55L6JH212851,泰安,是,362523198401190813,362523198401190813,山东省泰安市明堂路乐活小镇乐活超市,2019/7/4 10:00,2019/7/7 10:00,3,GL8,8071,是,赵丹,,2019/6/26 11:06,泰安高铁站门店,泰安市岱岳区泰安高铁站下沉广场A-24,18562323145,一嗨租车,否,2019/6/26 11:06,赵丹,是,商务车,是,上汽大通G10,1094,1094,1187194473,用户来电修改订单时间，录音编号：8981698381082,系统问题无录音编号
+2019-08-30 14:32:01.744 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1094
+2019-08-30 14:32:01.744 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1094
+2019-08-30 14:32:01.744 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>124,2019/7/2 13:13,胡鸿斌,15554080088,012494,LSGZJ55L8JH190643,菏泽,是,372930197205120036,372930197205120036,菏泽火车站店,2019/7/4 12:00,2019/7/7 12:00,3,GL8,8014,是,赵丹,,,菏泽火车站店,山东省菏泽市牡丹区中华路138号紫金国际地下二层停车场内,18769070706,神州租车,是,2019/7/2 13:42,赵丹,是,商务车,否,,,,,因没有商务车，用户取消,15942407564406
+2019-08-30 14:32:01.780 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>37,2019/6/24 15:30,郭世忠,18638118137,006099,LSGZJ55L2JH035117,重庆,是,410126197505243313,410126197505243313,重庆机场,2019/6/27 14:00,2019/7/2 14:00,3,GL8,8014,是,赵丹,,2019/6/24 16:59,重庆江北机场T2航站楼店,T2航站楼接机地址：T2B航站楼国内出发层7号口；T3航站楼接机地址：停车楼2F中央区（国内到达6、7号门出航站楼直行约200米，乘扶梯往下即停车楼2层中央区）。请在到达接机地址后致电17830727063 、13368386983,13368386983,神州租车,是,2019/6/24 16:59,8027,是,商务车,是,别克昂科威,1082,1833,15613670592675 ,用户原订单时间：2019/6/30 14:00:00，用户自行续租到7月2号13:50，前三天费用1082，需要用户自行支付751元，待用户支付,11164154850967
+2019-08-30 14:32:01.811 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1082
+2019-08-30 14:32:01.812 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1833
+2019-08-30 14:32:01.812 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>38,2019/6/30 18:04,胥德辉,15090929928,006558,LSGZJ55L9JH035227,宜昌,是,36042119870929263x,36042119870929263x,宜昌伍家岗区,2019/7/3 9:00,2019/7/6 9:00,3,GL8,8057,否,赵丹,,2019/7/1 10:47,,,,一嗨租车,否,2019/7/1 10:47,,是,商务车,否,,,,,宜昌没有商务车用户表示取消服务,4498795223380
+2019-08-30 14:32:01.844 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>111,2019/6/13 18:47,范志杰,13813956858,013852,LSGUL8AL5JA081030,深圳,是,420281198012124638,420281198012124638,深圳市大梅沙盐梅路92号大梅沙雅兰酒店,2019/7/6 12:00,2019/7/9 12:00,3,Gl8,8057,是,赵丹,,2019/6/14 13:43,横岗中心小学自助点,深圳市龙岗区富康路85号横岗中心小学东北门,13570860632,神州租车,是,2019/6/14 13:43,8027,否,商务车,是,2017别克GL8,1415,1699,15604912624134,用户自行更改订单，原订单时间：2019/7/1 13:00:00，到2019/7/4 13:00:00；因调整时间，所以租车费用有变更，6号到9号的租车费用为1549元，用户自行添加一项尊享服务费，一天50元，3天一共150元，待用户支付,490964140462
+2019-08-30 14:32:01.878 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1415
+2019-08-30 14:32:01.878 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1699
+2019-08-30 14:32:01.878 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>123,2019/6/28 19:03,李春伟,13691559060,012596,LSGZJ55L2JH195434,北京,是,530402198601091513,530402198601091513,北京市海淀区玉泉路15号院,2019/7/5 13:00,2019/7/8 13:00,3,GL8,8070,是,赵丹,,2019/6/29 17:54,玉泉路地铁站自助点,北京市石景山区2号东北60米（北京国际雕塑公园）,18001300891,神州租车,是,2019/6/29 17:54,赵丹,是,商务车,是,17别克GL8,1901,1951,15618022786327,,12804300815583
+2019-08-30 14:32:01.908 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1901
+2019-08-30 14:32:01.908 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1951
+2019-08-30 14:32:01.909 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>125,2019/7/8 16:15,时磊,15902233925,007925,LSGZJ55L0JH030238,天津市,是,120101198401132019,120101198401132019,天津市南开区,2019/7/11 16:00,2019/7/14 16:00,3,GL8,8057,是,高鹏,,2019/7/8 17:33,华苑自助点,天津市迎水道与梅苑路交口人人乐超市门口停车场,18920029383,神州租车,是,2019/7/8 17:33,高鹏,是,商务车,是,2017别克GL8,1514,1664,15625785508372,用户自行添加尊享服务费，一共150元，待用户支付,2144460122073
+2019-08-30 14:32:01.939 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1514
+2019-08-30 14:32:01.939 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1664
+2019-08-30 14:32:01.939 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>43,2019/6/19 19:44,蒲江,18913580532,013642,LSGZJ55L0LH001289,绵阳,是,513022198401096195,513022198401096195,绵阳市北川羌族自治县桂溪村,2019/7/6 19:00,2019/7/9 19:00,3,GL8,8071,否,赵丹,,,,,,,,2019/6/25 9:58,8027,是,商务车,否,,,,,用户表示取消服务,1043030048026
+2019-08-30 14:32:01.973 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>45,2019/7/2 16:04,任晓倩,15248041132,007637,LSGZJ55L4JH141245,呼和浩特,是,152625199207116023,152625199207116023,呼和浩特玉泉区,2019/7/5 11:00,2019/7/8 11:00,3,都可以（尽量是商务车）,8014,是,赵丹,,2019/7/2 16:22,南茶坊自助点,玉泉区鼎丰丽景天下西门南侧停车场内,18747987769,神舟租车,是,2019/7/2 16:22,8027,是,商务车,否,,1934,,15620560087556,用户使用15771332136此号码自行致电神舟取消订单,831846338807
+2019-08-30 14:32:02.007 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1934
+2019-08-30 14:32:02.007 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>46,2019/7/3 14:27,池志锋,13560312197,007255,LSGZJ55L0JH127715,广州,是,440106198306190313,440106198306190313,广州市天河区,2019/7/8 10:00,2019/7/11 10:00,3,GL8,8057,是,赵丹,,2019/7/3 15:06,广州火车东站店,天河区林和中路广州东站停车场入口右侧（广州东站内5号门出口右转100米、广州东站地铁站F出口对面），18922743902,18922743902,神舟租车,是,2019/7/3 15:06,8027,是,商务车,是,2017别克GL8,2036,2186,15621378234165,用户自行添加尊享服务费，一天50元，一共150元，待用户支付。,5989583341202
+2019-08-30 14:32:02.039 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2036
+2019-08-30 14:32:02.039 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2186
+2019-08-30 14:32:02.039 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>113,2019/6/28 14:24,王迪,13693344934,008410,LSGUL8AL5JA100580,北京,是,110108198811014210,110108198811014210,北京市海淀区万寿路,2019/7/12 16:00,2019/7/15 16:00,3,GL8,8070,是,赵丹,,2019/6/28 14:56,五棵松店,海淀区五棵松桥北桥下空间停车场（地铁1号线至五棵松站下车，B2出口向北步行50米即到）,18910887568,神州租车,是,2019/6/28 14:56,8027,是,商务车,是,2017别克GL8,1865,1865,15617052543052,,4570863499768
+2019-08-30 14:32:02.071 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1865
+2019-08-30 14:32:02.071 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1865
+2019-08-30 14:32:02.071 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>46,2019/7/7 20:44,郝志国,18030618999,007635,LSGZJ55L3JH141060,呼和浩特,是,150104199112074114,150104199112074114,呼和浩特乌兰察布东路园艺所艺苑公寓,2019/7/13 9:00,2019/7/16 9:00,3,GL8,8071,是,赵丹,,2019/7/8 15:30,呼和浩特白塔机场店,白塔机场航站楼一层国内到达厅内神州租车柜台（1号门西侧）,13739917679,神州租车,是,2019/7/8 15:30,8027,是,商务车,是,2017别克GL8,1910,1870.2,15625713022951,,
+2019-08-30 14:32:02.100 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1910
+2019-08-30 14:32:02.100 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1870.2
+2019-08-30 14:32:02.100 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>49,2019/7/13 10:03,陈春丰,13646860070,007693,LSGZJ55L4JH034227,嘉兴,是,330726198602211118,330726198602211118,嘉兴市嘉善县,2019/7/15 10:00,2019/7/16 10:00,1,商务车7座自动挡,8059,是,梁宇超,,2019/7/13 10:48,嘉善高铁便捷点,嘉兴市嘉善县大云镇蒋家村（近善江公里）,18268316735,一嗨租车,否,2019/7/13 10:35,8021,是,商务车,是,上汽大通G10,295,,1187465579,用户来电取消，原因是行程变更，因没有提前24小时扣一次次数，用户认同,
+2019-08-30 14:32:02.131 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:295
+2019-08-30 14:32:02.131 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>128,2019/7/14 22:00,孙裕,18878785698,012999,LSGZJ55L3JH212189,南宁,是,450103199702282014,450103199702282014,南宁市兴宁区,2019/7/19 19:00,2019/7/22 19:00,3,GL8,8070,是,赵丹,,2019/7/17 17:27,瀚林山水源送车点,南宁南梧路6号翰林山水源小区南门,07713259289,一嗨租车,是,2019/7/17 17:27,赵丹,是,商务车,否,上汽大通G10,1070,,1187540329,用户来电取消订单,378132261026
+2019-08-30 14:32:02.161 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1070
+2019-08-30 14:32:02.162 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>129,2019/7/19 16:30,陈锋,13655005547,007519,LSGZJ55L7JH139389,福州市,是,350524197712221590,350524197712221590,福州市仓山区,2019/7/19 18:00,2019/7/22 18:00,3,GL8,8057,是,赵丹,,2019/7/19 16:56,白湖亭自助点,福州市仓山区连江南路与双湖三路交叉口中国移动门口（白湖亭公交总站对面）,18558615355,神舟租车,是,2019/7/19 16:56,赵丹,是,商务车,是,2017别克GL8,1598,1598,15635275533608,83019312@qq.com,9727209104318
+2019-08-30 14:32:02.190 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1598
+2019-08-30 14:32:02.190 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1598
+2019-08-30 14:32:02.190 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>42,2019/7/20 21:53,陈敏臻,18711628327,006756,LSGZJ55L7JH035159,上海,是,430702198203282018,430702198203282018,上海市浦东新区绿地假日酒店,2019/7/24 8:00,2019/7/27 8:00,3,轿车,8057,是,梁宇超,,2019/7/21 11:27,一嗨租车(周浦店),上南路6872号（上南路沪南公路）,02168072615,一嗨租车,是,2019/7/21 11:20,梁宇超,是,用户想要沪牌能上高架的轿车,是,,530,,1187604829,用户在7/24 9:18自行致电一嗨取消服务，因已经过了取车时间，扣一次服务次数,12156550114852
+2019-08-30 14:32:02.219 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:530
+2019-08-30 14:32:02.219 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>50,2019/7/15 14:56,刘学佳,15730595435,007408,LSGZJ55L5JH136328,重庆,是,511203198005125150,511203198005125150,重庆市万州区一品江南一栋一单元502,2019/7/19 16:00,2019/7/22 16:00,3,Gl8,5071,是,赵丹,,2019/7/15 16:17,万州北滨店,北滨路2段172号（天江郦城）,02358122859,一嗨租车,否,2019/7/15 16:17,8027,是,商务车,否,全新胜达,854,,1187503590,用户需要知晓都有什么类型的商务车；用户表示不满意车型，暂时取消,因系统问题，没有该通录音
+2019-08-30 14:32:02.247 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:854
+2019-08-30 14:32:02.247 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>52,2019/7/17 8:49,王红晶,18561386008,007072,LSGZJ55L9JH121959,青岛,是,230710198501090623,230710198501090623,青岛城阳区,2019/7/19 9:00,2019/7/22 9:00,3,GL8,8014,是,益普索,,2019/7/17 10:19,流亭机场店,青岛市城阳区天河路与海关路路口西北角停车场内（天河路小学东200米停车场内）,18863958129,神州租车,是,2019/7/17 10:19,8027,是,商务车,是,2017别克GL8,1960,1960,15633308678182,,15622740652858
+2019-08-30 14:32:02.274 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1960
+2019-08-30 14:32:02.274 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1960
+2019-08-30 14:32:02.274 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>53,2019/7/17 9:54,焦健,13866140528,007613,LSGZJ55L2JH140823,合肥,是,340111197711017517,340111197711017517,合肥蜀山区,2019/7/24 9:00,2019/7/27 9:00,3,GL8,8014,是,益普索,,2019/7/17 10:44,大溪地服务点,怀宁路与金大地1912北大街交叉口东北100米大溪地国际商业广场停车场负二层D区,13635690935,神州租车,是,2019/7/17 10:44,8027,是,商务车,是,别克GL8,1219,874,15633327502830,,7433159505184
+2019-08-30 14:32:02.300 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1219
+2019-08-30 14:32:02.300 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:874
+2019-08-30 14:32:02.300 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>54,2019/7/17 18:48,陈超,15261878777,013319,LSGZJ55L9JH241020,南京,是,321183198602160852,321183198602160852,江宁区竹山路地铁站店,2019/7/22 8:00,2019/7/25 8:00,3,轿车,8014,是,赵丹,,2019/7/18 11:27,竹山路地铁站店,江宁区竹山路500-10号商铺（地铁竹山路站2号出口向南250米）,18914483891,神州租车,是,2019/7/18 11:27,8027,是,商务车,是,2017别克GL8,2069,2447,15634207820776,用户邮箱：2510829994@qq.com；邮费278元，加油服务费100元，一共378元，需要用户自行支付，待支付,9480149777641
+2019-08-30 14:32:02.326 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2069
+2019-08-30 14:32:02.326 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2447
+2019-08-30 14:32:02.327 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>55,2019/7/18 10:39,张佳艺,13916610691,013551,LSGZJ55L3KH074459,成都,是,310109198105064513,310109198105064513,成都青羊区丽思卡尔顿酒店,2019/7/26 14:00,2019/7/28 14:00,2,GL8,8071,是,赵丹,,2019/7/18 12:23,双流机场店,成都市双流区航枢大道700号富园国际物流停车场内,028-85611131,神州租车,是,2019/7/18 12:23,8027,是,商务车,是,2017别克GL8,1829,1754,15634242090028,用户邮箱：8179561@qq.com,4955581238229
+2019-08-30 14:32:02.353 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1829
+2019-08-30 14:32:02.353 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1754
+2019-08-30 14:32:02.353 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>56,2019/7/18 13:32,徐李峰,13218081737,007650,LSGZJ55L7JH14143,南京,是,320684198202147416,320684198202147416,南京市江宁区双麒路102号,2019/7/23 8:00,2019/7/26 8:00,3,GL8,8071,是,赵丹,,2019/7/18 13:51,南京南站店,六朝路证大喜马拉雅J座地下停车场负三层K区（南站南广场出站左拐步行至六朝路和金阳东街交口，沿六朝路向南（右拐）直行100米，红绿灯过马路至马路对面左前方苏宁小店，到达J座，乘电梯至负三层即到）,15365179300,神州租车,是,2019/7/18 13:51,8027,是,商务车,否,2017别克GL8,2158,,15634301761767,用户邮箱：1961459258@qq.com/用户时间来不及，不租了。,867048374146
+2019-08-30 14:32:02.378 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2158
+2019-08-30 14:32:02.378 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>8,2019/7/19 22:50,温雪红,18604471795,003826,LSGUL8AL3HA139694,成都,是,22022119660302090x,22022119660302090x,成都市锦江区东方广场商业中心一栋2单元,2019/7/26 9:00,2019/7/29 9:00,3,GL8,8071,是,梁宇超,,2019/7/20 17:45,春熙路服务点,锦江区华兴正街54锦江剧场地下停车场内,028-86715953,神州租车,是,2019/7/20 17:45,梁宇超,是,商务车,是,别克GL8,2624,2774,15636165068421,,8434036443826
+2019-08-30 14:32:02.406 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2624
+2019-08-30 14:32:02.407 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2774
+2019-08-30 14:32:02.407 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>127,2019/7/12 17:55,于海峰,15045874080,007526,LSGZJ55L4JH139396,大庆,是,230621199401181251,230621199401181251,大庆萨尔图区,2019/7/26 10:30,2019/7/29 10:30,3,都可以,8014,是,梁宇超,,2019/7/13 11:03,萨尔图区新村店,萨尔图区纬十二路72号,15246135000,一嗨租车,否,2019/7/13 10:53,梁宇超,是,路虎揽胜极光,是,路虎揽胜极光,2114,1416,1187465907,,1072397052074
+2019-08-30 14:32:02.441 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2114
+2019-08-30 14:32:02.441 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1416
+2019-08-30 14:32:02.441 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>39,2019/7/2 9:55,黄洁平,15820264229,006561,LSGZJ55L5JH029649,广州,是,44011119870421246X,44011119870421246X,广州天河区,2019/7/26 16:00,2019/7/29 16:00,3,GL8,8014,是,赵丹,,2019/7/2 10:13,车陂店,广州市天河区中山大道190号骏景花园（东御苑）停车场,18102810620,神州租车,是,2019/7/2 10:13,8027,是,商务车,是,2017别克GL8,2267,2577,15620340999385,,12341766495536
+2019-08-30 14:32:02.477 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2267
+2019-08-30 14:32:02.477 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2577
+2019-08-30 14:32:02.477 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>43,2019/7/22 15:27,刘建铭,18005355579,006076,LSGZJ55L1JH034556,烟台,是,370611199210060316,370611199210060316,烟台开发区,2019/7/26 15:00,2019/7/29 15:00,3,GL8,8014,是,赵丹,,2019/7/22 15:46,开发区彩云城服务点,烟台市经济技术开发区长江路188号（速八酒店旁）,15653557201,神州租车,是,2019/7/22 15:46,8027,是,最好是商务车,是,2017别克GL8,2672,2672,15637817660628,534555285@qq.com,4002842022805
+2019-08-30 14:32:02.512 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2672
+2019-08-30 14:32:02.512 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2672
+2019-08-30 14:32:02.512 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>45,2019/7/24 14:45,周秀妍,13822255120,010575,LSGUL8AL4KA120532,上海,是,440104198208262245,440104198208262245,上海市闵行区银亭路,2019/7/26 15:00,2019/7/29 15:00,3,商务车,8059,是,赵丹,,2019/7/24 15:07,吴中路卜蜂莲花自助点,自助指引 http://qpic.cn/WBKfsCB4c 吴中路1218号(近合川路) 卜蜂莲花停车场内，自助取车区：停车场入口左手专用15个车位，自助还车区：停车场入口右手专用15个车位,18121285589,神州租车,是,2019/7/24 15:07,8027,是,商务车,是,2017别克GL8,1847,2077,15639526938111,1208499237@qq.com,6518678547383
+2019-08-30 14:32:02.545 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1847
+2019-08-30 14:32:02.545 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2077
+2019-08-30 14:32:02.545 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>47,2019/7/9 14:30,章平,18926008502,006452,LSGZJ55L6JH101362,深圳,是,430723199408190818,430723199408190818,深圳市龙华区,2019/7/26 14:00,2019/7/29 14:00,3,GL8,8059,是,赵丹,,2019/7/9 15:40,龙胜自助点,深圳市龙华新区和平路与布龙路交汇处366号特发和平里一期（地铁4号线龙胜地铁站A1出口即到）,13691662196,神州租车,是,2019/7/9 15:40,8027,是,商务车,是,2017别克GL8,1865,2015,15626584594089,用户更改时间,1301150435472
+2019-08-30 14:32:02.577 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1865
+2019-08-30 14:32:02.577 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2015
+2019-08-30 14:32:02.577 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>48,2019/7/12 14:24,许峰,18055128668,006843,LSGZJ55L7JH109955,乌鲁木齐,是,650102198006290711,650102198006290711,乌鲁木齐新市区,2019/7/27 12:00,2019/7/30 12:00,3,GL8,8027,是,赵丹,,2019/7/12 15:06,新疆昆仑宾馆送车点,乌鲁木齐市沙依巴克区友好北路146号,09913555050,一嗨租车,是,2019/7/12 15:06,8027,是,SUV,否,大众探岳四驱,2459,,1187453274,客户行程改变，要求取消，已取消订单。,6904657199877
+2019-08-30 14:32:02.610 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2459
+2019-08-30 14:32:02.610 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>57,2019/7/24 17:02,南萌,18669406071,007864,LSGZJ55L0JH160164,青岛,是,370305198806070736,370305198806070736,青岛市黄岛区,2019/8/1 15:30,2019/8/4 15:30,3,商务车,8059,是,赵丹,,2019/7/24 17:18,金沙滩自助点,青岛市黄岛区漓江西路674号唐岛湾景区停车场内,13295426266,神州租车,是,2019/7/24 17:18,8027,是,商务车,是,2017别克GL8,1934,1934,15639601925695,用户邮箱：356523167@qq.com,473765207020
+2019-08-30 14:32:02.646 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1934
+2019-08-30 14:32:02.646 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1934
+2019-08-30 14:32:02.646 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>9,2019/7/24 13:27,刘刚,18951662321,002730,LSGUL8AL4HA110317,太原,是,320106197003280475,320106197003280475,太原市武宿机场,2019/8/4 10:00,2019/8/7 10:00,3,SUV,8059,是,赵丹,,2019/7/24 13:51,武宿机场便捷点,太榆路199号武宿机场停车场,0351-2507955,一嗨租车,是,2019/7/24 13:51,赵丹,是,suv,是,现代全新胜达,814,814,1187660727,,1104127195775
+2019-08-30 14:32:02.682 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:814
+2019-08-30 14:32:02.682 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:814
+2019-08-30 14:32:02.682 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>10,2019/7/25 14:51,魏敬标,13195532777,002660,LSGUL8AL4HA108180,上海,是,340421197906294038,340421197906294038,上海市普陀区,2019/8/2 10:00,2019/8/5 10:00,3,GL8,8071,是,赵丹,,2019/7/25 17:11,11号线上海西站服务点,自助取还车指引：http://qpic.cn/r4mZuyWa7 11号线上海西站地铁站5号口下B3停车场（5号自动扶梯正下方楼梯进入），开车导航上海西站南广场地下停车场B3靠近出口,021-32206673,神州租车,是,2019/7/25 17:11,赵丹,是,都可以,是,17别克GL8,1768,1344,15640464102679,用户改变用车时间，从7月29日10点-8月1日10点，改为，8月2日10点-8月5日10点。预计金额从1628改为1768,13550746052597
+2019-08-30 14:32:02.718 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1768
+2019-08-30 14:32:02.718 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1344
+2019-08-30 14:32:02.718 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>11,2019/8/1 11:33,匡于彧,18877555559,001612,LSGUL8AL1HA074232,南宁,是,450902198406258039,450902198406258039,南宁市兴宁区,2019/8/6 16:00,2019/8/9 16:00,3,GL8,8070,是,赵丹,,2019/8/1 12:44,广西大学店,南宁市西乡塘区明秀西路118号百汇华庭9号商铺，依心宠物医院旁（地铁1号线广西大学站A出口往前20米左边即到百汇华庭）,13377003778,神州租车,是,2019/8/1 12:44,赵丹,是,都可以,否,17别克GL8,1967,,15646355135642,561563229@qq.com，用户来电取消订单，原因：临时有事,7158754028711
+2019-08-30 14:32:02.751 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1967
+2019-08-30 14:32:02.751 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>12,2019/8/4 14:06,沈长春,13052062888,004973,LSGUL8AL5HA081622,北京,是,320922198303035074,320922198303035074,北京南站店,2019/8/5 14:00,2019/8/8 14:00,3,Gl8,8071,是,梁宇超,,2019/8/4 17:24,北京南站店,丰台区南站幸福路与永外车站路交汇处西北角停车场（南站北出口沿南站幸福路向东300米路北）,18910887539,神州租车,是,2019/8/4 17:24,梁宇超,是,都可以,是,17别克GL8,2850,2938,15649114154383,30702110@qq.com/沟通中，客户要求修改订单信息，订单时间，因账户没有钱，用户垫付，后续为其报销,
+2019-08-30 14:32:02.783 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2850
+2019-08-30 14:32:02.783 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2938
+2019-08-30 14:32:02.783 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>114,2019/8/4 12:19,何斌,15983619873,009135,LSGUL8AL0JA132031,北京,是,510781198804034779,510781198804034779,北京昌平区南口镇马坊村一号长城宾馆,2019/8/7 8:00,2019/8/10 8:00,3,gl8,8071,是,梁宇超,,2019/8/4 15:14,回龙观店,昌平区地铁13号线回龙观站A口向北200米华联购物中心停车场入口处,18910887545,神州租车,是,2019/8/4 15:14,梁宇超,是,商务车,是,2017别克GL8,2761,2761,15649034040720,邮箱：739681516@qq.com,8246056832475/9206485414649
+2019-08-30 14:32:02.815 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2761
+2019-08-30 14:32:02.815 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2761
+2019-08-30 14:32:02.815 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>131,2019/7/29 20:53,程子豪,18531689420,013077,LSGZJ55L0JH217477,北京,是,131002199403212811,131002199403212811,北京市大兴区,2019/8/2 20:00,2019/8/5 20:00,3,GL8,8070,是,梁宇超,,2019/7/30 11:23,北京亦庄店,大兴区亦庄开发区荣京东街荣京丽都大厦A座一层大厅,18910887580,神舟租车,是,2019/7/30 11:23,梁宇超,是,商务车,是,别克GL8,2475,2551.9,15644577246247,1187501759@qq.com，用户自行添加尊享服务费，一天50元，一共150元，已与神舟客服核实，用户没有添加过这一项费用，是门店自行添加，门店表示已经将这笔费用微信支付给乘客，该笔订单总费用为2625元，因用户还车时的油量比取车时的油量多，需要反用户73.1，这笔费用直接在我司账户抵扣，所以用户需要支付我司76.9元，用户已支付,17265618658563
+2019-08-30 14:32:02.844 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2475
+2019-08-30 14:32:02.844 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2551.9
+2019-08-30 14:32:02.844 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>132,2019/7/31 17:10,解生冕,13342816085,012724,LSGZJ55L8JH197575,鞍山,是,44010619671112197X,44010619671112197X,鞍山市立山区,2019/8/6 9:00,2019/8/9 9:00,3,GL8,8021,是,高鹏,,2019/7/31 17:46,时代家园自助点,鞍山市立山区北胜利路365号 时代家园建材广场停车场,18624623282,神舟租车,否,2019/7/31 17:46,梁宇超,是,商务车,是,雪佛兰科帕奇四驱,836,836,15645666775952,6455406@qq.com,16073056964311
+2019-08-30 14:32:02.873 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:836
+2019-08-30 14:32:02.873 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:836
+2019-08-30 14:32:02.873 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>134,2019/8/2 16:04,董吉平,18630452380,012608,LSGZJ55L1JH195506,廊坊市,是,511526199106132427,511526199106132427,廊坊市三河市燕郊开发区,2019/8/5 10:00,2019/8/8 10:00,3,GL8,8057,否,梁宇超,,,,,,神州租车,否,2019/8/3 10:56,梁宇超,否,商务车,否,,,,,779120471@qq.com，客户无信用卡，暂不下单。,15270990515782
+2019-08-30 14:32:02.901 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>136,2019/8/4 17:04,李煜,13806210078,013718,LSGZJ55L6LH003595,三亚,是,320503197403062517,320503197403062517,三亚亚龙湾华宇度假酒店,2019/8/7 12:00,2019/8/10 12:00,3,Gl8,8071,是,赵丹,,2019/8/5 12:20,亚龙湾亚泰美食街中心便捷点,吉阳区亚龙湾路111号,18889789987,一嗨租车,是,2019/8/5 12:20,赵丹,是,轿车,是,大众斯柯达明锐,464,464,1187870019,13806210078@139.com,121983981870
+2019-08-30 14:32:02.928 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:464
+2019-08-30 14:32:02.928 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:464
+2019-08-30 14:32:02.928 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>39,2019/7/12 15:09,张阿青,13336097953,008011,LSGUL8AL7JA082745,秦皇岛,是,332624198301160015,332624198301160015,秦皇岛火车站,2019/8/3 16:00,2019/8/6 16:00,3,GL8,8014,是,赵丹,,2019/7/12 15:31,秦皇岛火车站,秦皇岛海港区北环路与民族路交口紫金嘉府底商201,03353630201,一嗨租车,是,2019/7/12 15:31,8027,是,商务车,是,上汽大通G10,1619,1698,1187453642, 用户16:46还车，产生超时费79元，用户已支付,8227579017237
+2019-08-30 14:32:02.954 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1619
+2019-08-30 14:32:02.954 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1698
+2019-08-30 14:32:02.954 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>43,2019/7/23 15:22,邵佳琛,13962378268,006796,LSGZJ55L3JH033456,常熟,是,320520197412242233,320520197412242233,常熟汽车北站服务点,2019/8/7 19:00,2019/8/10 19:00,3,GL8,8014,是,赵丹,,2019/7/23 15:51,常熟汽车北站服务点,海虞北路58号常熟旅游集散服务中心大厅内9号柜台。自助取还区域：常熟客运北站南侧淮河路街边免费划线车位。（避免违停贴条，请按序停放）,18012619066,神州租车,是,2019/7/23 15:51,8027,是,商务车,是,2017别克GL8,1499,2192,15638712661513,13962378268@139.com 用户自行更改时间，原时间为8/6 19:00 取车 8/9号 19:00 还车,16032689763954
+2019-08-30 14:32:02.980 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1499
+2019-08-30 14:32:02.980 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2192
+2019-08-30 14:32:02.980 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>45,2019/8/1 13:29,潘东良,13586411717,010503,LSGUL8AL1KA119936,沈阳,是,330419198112283418,330419198112283418,沈阳机场,2019/8/5 9:00,2019/8/6 18:00,1,GL8,8070,是,赵丹,,2019/8/1 13:59,沈阳北站店,沈阳市沈河区北站路73号如家精选酒店负一层（下火车从北站南广场南二出口出，直行200米即是），电话:17642069966,17642069966,神州租车,是,2019/8/1 13:59,8027,是,商务车,是,2017别克GL8,1800,1900,15646394124990,用户邮箱：185220305@qq.com，异店还车费100元，待用户支付,8954826156560
+2019-08-30 14:32:03.007 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1800
+2019-08-30 14:32:03.007 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1900
+2019-08-30 14:32:03.007 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>50,2019/7/16 10:02,郭欣荣,18911615583,013522,LSGZJ55L5KH060580,北京,是,150105198209227342,150105198209227342,北京市海淀区志新西路,2019/8/8 17:00,2019/8/11 17:00,3,GL8,8059,是,杨瑞,,2019/7/16 11:00,知春路店,海淀区地铁10号线知春路站F口出，出站右后方停车场（地铁口西侧70米）,13331155118,神州租车,是,2019/7/16 11:00,8027,是,商务车,是,2017别克GL8,1924,2314,15632483930659,客户来电修改订单为：8月8日17点取-8月11日17点还。,3472329044013
+2019-08-30 14:32:03.032 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1924
+2019-08-30 14:32:03.032 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2314
+2019-08-30 14:32:03.032 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>57,2019/7/27 14:54,姜磊,15005342333,013260,LSGZJ55L8JH240506,丽江,是,372401197209112739,372401197209112739,丽江机场,2019/8/2 8:00,2019/8/5 8:00,3,轿车,8014,是,梁宇超,,2019/7/28 11:06,三义机场便捷点,丽江三义机场出发二号门（实际还车地址：丽江三义机场居家酒店0,08724340988,一嗨租车,无,2019/7/27 16:42,8021,是,轿车,是,大众迈腾,878,878,1187729396,用户邮箱：664990257@qq.com,246984714607
+2019-08-30 14:32:03.055 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:878
+2019-08-30 14:32:03.055 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:878
+2019-08-30 14:32:03.055 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>58,2019/7/30 20:30,魏林,18080077168,006885,LSGZJ55L6JH112250,西宁,是,511025198701118568,511025198701118568,西宁高铁站,2019/8/3 10:30,2019/8/10 10:30,3,商务车,8014,是,梁宇超,,2019/7/31 16:11,西宁高铁站店,西宁市城东区祁连路火车站站前广场西公交汽车站（海宁皮革）负一层商铺通道内西四商铺和西七商铺,15352901714,神州租车,是,2019/7/31 16:11,8021,是,商务车,是,2017别克GL8,3866,8651,15645608403348,用户邮箱：5944207@qq.com，用户自行将订单更改到2019-08-10 10:30还车，2019-08-03 10:30取车,11643447372025
+2019-08-30 14:32:03.078 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:3866
+2019-08-30 14:32:03.079 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:8651
+2019-08-30 14:32:03.079 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>13,2019/8/6 9:01,赵国,13609972699,001006,LSGUL8AL6HA053456,上海,是,652323197310060013,652323197310060013,上海静安区,2019/8/9 9:00,2019/8/12 9:00,3,GL8,8057,是,韩思雨,,,,,,一嗨租车,是,2019/8/6 16:36,韩思雨,否,商务车,否,,,,,因没有商务车，用户不需要服务，取消,14891400883392
+2019-08-30 14:32:03.102 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>14,2019/8/7 11:33,鲁民,13501391087,003623,LSGUL8AL0HA135666,三亚,是,110108198201118637,110108198201118637,三亚市陵水县清水湾,2019/8/12 9:00,2019/8/15 9:00,3,GL8,8059,是,赵丹,,2019/8/7 12:38,,,,一嗨租车,是,2019/8/7 12:38,赵丹,是,商务车,否,,,,,用户来电取消订单。,12341896262189
+2019-08-30 14:32:03.125 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>40,2019/7/15 16:53,邹瑛,18101810168,009031,LSGUL8ALXJA131226,上海,是,310115198002150424,310115198002150424,上海市奉贤区南桥镇,2019/8/9 9:00,2019/8/12 9:00,3,GL8,8071,是,杨瑞,,2019/7/15 17:27,南桥卜蜂莲花自助点,自助指引 http://qpic.cn/xq7fjOmtA 奉贤区南奉公路8901弄18号商铺，自助取车区：卜蜂莲花地下车库入口右转右手边靠墙15个停车位，自助还车区：左手边15个停车位,18121288973,神州租车,是,2019/7/15 17:27,8027,是,商务车,是,2017别克GL8,1673,1673,15631840461814,,5622495840970
+2019-08-30 14:32:03.148 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1673
+2019-08-30 14:32:03.149 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1673
+2019-08-30 14:32:03.149 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>46,2019/8/3 15:07,焦志强,13833451398,006116,LSGZJ55L3JH030296,石家庄,是,132322196912140018,132322196912140018,石家庄裕华区,2019/8/11 9:00,2019/8/14 9:00,3,商务车,8059,是,梁宇超,,2019/8/3 16:09,石家庄万达自助点,裕华区槐安东路146号和平大厦停车场（槐安路与翟营大街交口西南角停车场）,19931160202,神州租车,是,2019/8/3 16:09,梁宇超,是,商务车,是,2017别克GL8,1760,1910,15648201602897,用户邮箱：jiaozhiqiang@263.net/用户来电修改订单，用户自行添加尊享服务费，3天150元，待用户支付,17489172206398
+2019-08-30 14:32:03.171 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1760
+2019-08-30 14:32:03.171 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1910
+2019-08-30 14:32:03.171 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>59,2019/7/31 12:43,赵伟力,13102642852,013461,LSGZJ55LXKH050806,唐山,是,130225198510037131,130225198510037131,唐山市路北区,2019/8/9 15:00,2019/8/12 15:00,3,商务车,8070,是,梁宇超,,2019/7/31 15:07,国际会展中心自助点,唐山市路北区唐山国际会展中心停车场，龙富南道与建设北路交口入口，直行到头即到,18633449980,神州租车,是,2019/7/31 15:07,8021,是,商务车,是,2017别克GL8,2253,2403,15645573736856,276442840@qq.com 用户来电表示账户余额不足，没有办法取车。已联系上海告知让用户垫付，后为其报销，还车时神舟表示租车费用是企业支付，用户自行添加尊享服务费，待用户支付。,5272980273268
+2019-08-30 14:32:03.195 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2253
+2019-08-30 14:32:03.195 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2403
+2019-08-30 14:32:03.195 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>60,2019/8/6 9:32,丁文诚,13806472329,006499,LSGZJ55L6JH105475,潍坊市,是,370704197310130417,370704197310130417,潍坊市坊子区,2019/8/15 17:00,2019/8/18 17:00,3,商务车,8057,是,韩思雨,,2019/8/6 10:31,,,,一嗨租车,是,2019/8/6 10:31,8014,是,商务车,否,,,,,用户表示考虑一下，后续自行来电,14909822208032
+2019-08-30 14:32:03.220 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>62,2019/8/7 11:49,胡亮,18094220742,013756,LSGZJ55L8LH004750,南京,是,320125199205122035,320125199205122035,南京市雨花台区,2019/8/9 17:00,2019/8/12 17:00,3,商务车,8059,是,赵丹,,2019/8/7 12:03,南京南站高铁站,雨花台区玉盘东街2号金轮星立方广场A区139室,025-86403910,一嗨租车,是,2019/8/7 12:03,8027,是,商务车,否,别克GL8,1679,,1187906898,用户来电取消,4912589047421
+2019-08-30 14:32:03.246 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1679
+2019-08-30 14:32:03.246 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>63,2019/8/9 13:25,支有强,13731361661,007815,LSGZJ55LXJH155991,杭州,是,120106197210200530,120106197210200530,杭州火车城站店,2019/8/14 8:00,2019/8/16 19:00,3,轿车,8014,是,韩思雨,,2019/8/7 13:46,杭州火车城站店,上城区婺江路久融新能源停车场内。取车地址：地铁一号线婺江路站下D出口往汽车南站方向步行100米找到黑色铁门进内即到,13336013115,一嗨租车,否,2019/8/9 13:52,8014,是,轿车,是,大众迈腾,776,,1187944046,用户致电一嗨客服取消订单，没有提前24小时扣一次服务次数,7496166115579
+2019-08-30 14:32:03.271 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:776
+2019-08-30 14:32:03.271 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>64,2019/8/10 8:38,骆刘,13982225362,007219,LSGZJ55L9JH123162,西双版纳,是,510122198310048326,510122198310048326,西双版纳告庄双景,2019/8/12 9:00,2019/8/14 17:00,3,轿车,8059,是,韩思雨,,2019/8/10 9:45,告庄西双景便捷点,西双版纳州景洪市告庄西双景大门口右侧100米停车场内,18008816303,一嗨租车,否,2019/8/10 9:23,8014,是,SUV,是,别克昂科拉,779,779,1187957401,,2053586047663
+2019-08-30 14:32:03.295 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:779
+2019-08-30 14:32:03.295 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:779
+2019-08-30 14:32:03.295 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>65,2019/8/11 12:54,王浩民,13133501011,006432,LSGZJ55L3JH098176,秦皇岛,是,130302199410110018,130302199410110018,秦皇岛海港区,2019/8/14 7:00,2019/8/17 7:00,3,商务车,8059,否,赵丹,,,,,,一嗨租车,否,2019/8/12 16:14,8027,否,,否,,,,,无客户想要的车型，且门店开门时间无法满足客户需求，用户要求门店电话沟通。回电下单，用户取消,3785027658720
+2019-08-30 14:32:03.319 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>115,2019/8/16 13:08,邹宝军,15972627777,009015,LSGUL8AL0JA131039,北京,是,429004197803303472,429004197803303472,北京市,2019/8/22 9:00,2019/8/25 9:00,3,GL8,8059,是,赵丹,,,,,,神舟租车,是,,8027,是,商务车,否,,,,,baojunzhou@126.com，用户致电取消订单,14592329510181
+2019-08-30 14:32:03.342 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>133,2019/8/2 14:48,张扬,13816559434,006380,LSGZJ55L4JH090331,上海,是,310105198112062019,310105198112062019,上海普陀区,2019/8/16 8:30,2019/8/19 8:30,3,GL8,8057,是,赵丹,,2019/8/2 15:09,11号线上海西站服务点,自助取还车指引：http://qpic.cn/r4mZuyWa7 11号线上海西站地铁站5号口下B3停车场（5号自动扶梯正下方楼梯进入），开车导航上海西站南广场地下停车场B3靠近出口,021-32206673,神舟租车,是,2019/8/2 15:09,赵丹,是,商务车,是,2017别克GL8,1742,1442,15647299412450,51398525@qq.com,15483280610738
+2019-08-30 14:32:03.367 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1742
+2019-08-30 14:32:03.367 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1442
+2019-08-30 14:32:03.368 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>135,2019/8/2 18:13,单汉卿,13222796333,007819,LSGZJ55L8JH156346,南京,是,320923198603214513,320923198603214513,南京秦淮区,2019/8/16 14:00,2019/8/19 14:00,3,GL8,8057,是,梁宇超,,2019/8/3 16:57,大明路送车点,大明路应天大街十字路口,025-86403910,一嗨租车,是,2019/8/3 16:30,梁宇超,是,商务车,是,,1599,1544,1187842015,邮箱：shanhanqing@126.com/15605159989@wo.cn/335679162@qq.com,8964334366236
+2019-08-30 14:32:03.397 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1599
+2019-08-30 14:32:03.398 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1544
+2019-08-30 14:32:03.398 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>137,2019/8/12 8:58,吴昊,13255557013,012985,LSGZJ55L4JH211519,青岛,是,370214199403246018,370214199403246018,青岛市城阳区,2019/8/16 12:00,2019/8/19 12:00,3,Gl8,8070,是,赵丹,,2019/8/12 11:04,青岛城阳店,青岛市城阳区文阳路525号（城阳区黑龙江北路与文阳路交叉口东南角，世纪民生小区20号楼网点）,18562637548,神舟租车,是,2019/8/12 11:04,赵丹,是,商务车,是,2017别克GL8,2689,2689,15655794693902,1085053617@qq.com,4785369725563
+2019-08-30 14:32:03.429 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2689
+2019-08-30 14:32:03.429 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2689
+2019-08-30 14:32:03.429 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>138,2019/8/12 22:33,顾辉球,13601857151,012908,LSGZJ55L1JH207492,上海,是,130113197502240015,130113197502240015,上海市宝山区宝城两村54号601,2019/8/16 9:00,2019/8/19 9:00,3,gl8,8071,是,赵丹,,2019/8/13 9:56,3号线水产路站自助点,自助取还车指引：qpic.cn/QvVjrWut5 上海市宝山区水产路1234号世纪联华超市2楼楼顶停车场,18121286337,神舟租车,是,2019/8/13 9:56,赵丹,是,最好是GL8商务车,是,2017别克GL8,1823,1484,15656635736405,389039693@qq.com,8458263008533
+2019-08-30 14:32:03.459 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1823
+2019-08-30 14:32:03.459 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1484
+2019-08-30 14:32:03.459 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>139,2019/8/15 23:35,叶小健,13160814265,012427,LSGZJ55L7JH176782,重庆,是,440112198507101812,440112198507101812,重庆市沙坪坝区富洲新城d街区,2019/8/19 9:00,2019/8/22 9:00,3,Gl8,8071,是,赵丹,,2019/8/16 10:15,重庆市沙坪坝万达广场(重庆市沙坪坝区),沙坪坝万达广场车库自助点,15683049319,神舟租车,是,2019/8/16 10:15,赵丹,是,商务车,是,2017别克GL8,1715,1865,15659223586706,214786614@qq.com,8025580693515
+2019-08-30 14:32:03.487 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1715
+2019-08-30 14:32:03.487 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1865
+2019-08-30 14:32:03.487 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>140,2019/8/17 10:03,王哲,15868332825,007797,LSGZJ55L1JH155572,嘉兴,是,220204197311050312,220204197311050312,嘉兴市嘉善县罗星街道,2019/8/20 13:00,2019/8/23 13:00,3,Gl8,8070,是,赵丹,,2019/8/17 10:21,嘉兴火车站服务点,嘉兴市勤俭路453号蚕种公司右手边第四个店铺神州租车或人民公园北门出口处右手边马路对面神州门店，自助取还区需进去蚕种公司延主路按神州租车指引标识抵达神州专用泊位,0573-83364010,神州租车,是,2019/8/17 10:21,赵丹,是,商务车,否,2017别克GL8,1631,,15660094668976,453638323@qq.com 因用户表示需要收取押金不合理，所以要取消订单。录音编号：10660118555027,4098840413464
+2019-08-30 14:32:03.513 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1631
+2019-08-30 14:32:03.513 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>47,2019/8/13 16:20,李博,18646685977,006190,LSGZJ55L6JH029773,大庆,是,230602197907284436,230602197907284436,大庆龙凤区,2019/8/16 11:00,2019/8/19 11:00,3,GL8,8057,是,赵丹,,2019/8/13 16:40,,,,一嗨租车,是,2019/8/13 16:40,赵丹,是,商务车,否,,,,,963434947@qq.com，因没有商务车，用户取消服务,16742563494708
+2019-08-30 14:32:03.539 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>48,2019/8/16 19:16,杨健,13575791920,006542,LSGZJ55L6JH034245,荆州,是,422421197812024039,422421197812024039,荆州市,2019/8/19 8:30,2019/8/22 8:30,3,GL8,8059,是,赵丹,,2019/8/17 10:07,荆州火车站店,荆州火车站左边社会停车场,0716-8633369,一嗨租车,是,2019/8/17 10:07,赵丹,是,商务车,是,现代全新胜达suv5座,899,899,1188084781,40338971@qq.com,957770653477
+2019-08-30 14:32:03.565 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:899
+2019-08-30 14:32:03.565 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:899
+2019-08-30 14:32:03.565 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>61,2019/8/6 22:02,张晓光,13820077175,007123,LSGZJ55L6JH030292,天津,是,140202198810272050,140202198810272050,南开区新城市花园,2019/8/16 13:00,2019/8/19 13:00,3,商务车,8071,是,赵丹,,2019/8/7 10:32,天津体育中心店,天津市南开区宾水西道农垦博纳影城停车场入口右侧,18622257956,神州租车,是,2019/8/7 10:32,8027,是,商务车，需要隐私性强的,是,2017别克GL8,2225,2375,15651453162117,devil000977@163.com,
+2019-08-30 14:32:03.591 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2225
+2019-08-30 14:32:03.591 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2375
+2019-08-30 14:32:03.591 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>66,2019/8/11 17:20,张留超,13107608208,006894,LSGZJ55L8JH113061,福州,是,510622198908203914,510622198908203914,福州福建省体育中心（鼓楼区）,2019/8/16 20:00,2019/8/19 20:00,3,GL8,8059,是,赵丹,,2019/8/12 10:58,福州省体店,鼓楼区省体育中心北门车辆入口处保安亭旁停车场,13178382311,神州租车,是,2019/8/12 10:58,8027,是,商务车,是,2017别克GL8,1466,1449,15655788903010,378966650@qq.com,
+2019-08-30 14:32:03.616 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1466
+2019-08-30 14:32:03.616 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1449
+2019-08-30 14:32:03.616 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>67,2019/8/12 14:43,王正文,13801090459,013232,LSGZJ55L6JH240231,丹东,是,210604197401242019,210604197401242019,丹东市振兴区,2019/8/16 8:00,2019/8/19 8:00,3,Gl8,8070,是,赵丹,,2019/8/12 15:07,丹东火车站店,丹东市振兴区丹东站出站口,0415-2288820,一嗨租车,是,2019/8/12 15:07,8027,是,商务车,是,上汽大通G10,1874,2199,1187997322,848470928@qq.com，用户来电修改时间，录音编号：16827561245810,
+2019-08-30 14:32:03.639 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1874
+2019-08-30 14:32:03.639 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2199
+2019-08-30 14:32:03.639 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>68,2019/8/13 14:03,于爽,15184550119,007437,LSGZJ55LXJH137684,大连,是,232301199310184422,232301199310184422,大连,2019/8/16 9:00,2019/8/19 9:00,3,Gl8,8057,是,赵丹,,2019/8/13 14:24,大连北站店,大连北站北广场二楼西侧停车场,13591151141,神州租车,是,2019/8/13 14:24,8027,是,商务车,是,别克GL8,2243,2393,15657701682554 ,"45729999@qq.com,用户来电更改车型，已为其重新下单，录音编号：3214890848690",
+2019-08-30 14:32:03.661 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:2243
+2019-08-30 14:32:03.661 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:2393
+2019-08-30 14:32:03.661 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>71,2019/8/16 10:44,田光宇,15053248607,013545,LSGZJ55L6KH073838,青岛,是,230106197004242815,M80866281,青岛胶州市,2019/8/18 17:00,2019/8/21 17:00,3,GL8,8059,是,赵丹,,2019/8/16 11:15,佳乐家自助点,广州南路与扬州东路交叉口东北150米停车场,18563998339,神州租车,是,2019/8/16 11:15,8027,是,商务车,否,别克昂科拉,599,,15659259883711,woo7689@qq.com，用户来电取消订单，录音编号：9015664328543,
+2019-08-30 14:32:03.684 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:599
+2019-08-30 14:32:03.684 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>72,2019/8/16 11:46,张天泽,18675587341,012261,LSGZJ55L0LH010431,南京,是,320102197611133211,320102197611133211,南京市江宁区,2019/8/23 9:00,2019/8/25 16:00,2,GL8,8059,是,赵丹,,2019/8/16 12:17,南京南站店,六朝路证大喜马拉雅J座地下停车场负三层K区（南站南广场出站左拐步行至六朝路和金阳东街交口，沿六朝路向南（右拐）直行100米，红绿灯过马路至马路对面左前方苏宁小店，到达J座，乘电梯至负三层即到）,15365179300,神州租车,是,2019/8/16 12:17,8027,是,轿车,是,别克昂科威,710,710,15659295585632,zhang2018tz@126.com,
+2019-08-30 14:32:03.707 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:710
+2019-08-30 14:32:03.708 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:710
+2019-08-30 14:32:03.708 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>73,2019/8/16 20:51,李亭,13823210982,012891,LSGZJ55L4JH206854,成都,是,412722198105131519,412722198105131519,成都市双流区,2019/8/19 12:00,2019/8/22 12:00,3,GL8,8014,是,赵丹,,2019/8/17 9:45,双流机场T2送车点,成都市双流区双流国际机场T2停车场C8区,19180507475,一嗨租车,是,2019/8/17 9:45,8027,否,商务车,否,现在全新胜达7座,1214,,1188084507,,
+2019-08-30 14:32:03.730 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1214
+2019-08-30 14:32:03.731 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - line: >>>>>>74,2019/8/17 17:25,高雪松,13132051616,007583,LSGZJ55L0JH140321,天津,是,120223197601290176,120223197601290176,天津静海区,2019/8/20 18:00,2019/8/23 18:00,3,GL8,8070,是,赵丹,,2019/8/17 17:36,天津大学城地铁站送车点,西青区宾水西道延长线（西青大学城地铁站A出口）,022-23755896,一嗨租车,是,2019/8/17 17:36,8027,是,商务车,是,上汽大通G10,1847,1595,1188093676,,
+2019-08-30 14:32:03.752 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1847
+2019-08-30 14:32:03.752 [http-nio-8088-exec-7] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1595
+2019-08-30 14:52:46.658 [main] INFO  com.avenir.AvenirApplication - Starting AvenirApplication on DESKTOP-QIA32CU with PID 16120 (E:\Avenir\target\classes started by dell in E:\Avenir)
+2019-08-30 14:52:46.661 [main] INFO  com.avenir.AvenirApplication - No active profile set, falling back to default profiles: default
+2019-08-30 14:52:47.751 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2019-08-30 14:52:47.764 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8088"]
+2019-08-30 14:52:47.775 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-30 14:52:47.776 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-08-30 14:52:47.790 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-08-30 14:52:47.790 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2019-08-30 14:52:47.790 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-08-30 14:52:47.790 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-08-30 14:52:48.877 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2019-08-30 14:52:48.974 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-30 14:52:48.974 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2264 ms
+2019-08-30 14:52:49.530 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-30 14:52:49.707 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8088"]
+2019-08-30 14:52:49.728 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2019-08-30 14:52:49.730 [main] INFO  com.avenir.AvenirApplication - Started AvenirApplication in 3.375 seconds (JVM running for 4.413)
+2019-08-30 14:52:54.599 [http-nio-8088-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-08-30 14:52:54.599 [http-nio-8088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-08-30 14:52:54.603 [http-nio-8088-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2019-08-30 14:52:54.618 [http-nio-8088-exec-2] INFO  com.avenir.utils.LogUtils - line: >>>>>>16,曹阳,ovU8Mj4W3-K3KWyNkalS6yvqKm5U,18039300001,012661,LSGZJ55L6JH195761,410522199002263836,日照,上汽大通G10(7座商务车),,,3天,用车租赁,2019/6/15 11:46,410522199002263836,,上汽大通G10(7座商务车),是,赵丹,,2019/6/15 11:46,东港区—日照火车站店,日照市东港区黄海三路路北铁路黄海小区沿街107号（火车站出站沿黄海三路往东150米）,400-888-6608,前台电话,是,2019/6/17 12:34,赵丹,,商务车,是,上汽大通G10,1184,1185,1187030511,,3179399811488
+2019-08-30 14:52:54.638 [http-nio-8088-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-08-30 14:52:54.729 [http-nio-8088-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-08-30 14:52:54.811 [http-nio-8088-exec-2] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1184
+2019-08-30 14:52:54.811 [http-nio-8088-exec-2] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1185
+2019-08-30 14:52:54.811 [http-nio-8088-exec-2] INFO  com.avenir.utils.LogUtils - line: >>>>>>7,房宇,ovU8Mj6enBN_cGa2Tu3__l6uJoZo,18515311762,006553,LSGZJ55L8JH044209,110227199103080910,北京,别克GL8 经典款  ,2019/7/4 10:00,2019/7/7 10:00,3,用车租赁,2019/6/26 16:30,110227199103080910,北京,别克GL8 经典款  ,是,8027,,2019/6/26 16:30,顺义区-首都机场T2送车点,顺义区首都机场货运路海关一号楼A区,400-888-6608,一嗨门店,是,2019/6/26,8027,是,别克GL8 经典款  ,否,别克GL8 经典款  ,1706,,1187200507,客户自行7月4日7点半致电门店取消,16617476173344
+2019-08-30 14:52:54.857 [http-nio-8088-exec-2] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.text.ParseException: Unparseable date: "2019/6/26"] with root cause
+java.text.ParseException: Unparseable date: "2019/6/26"
+	at java.text.DateFormat.parse(DateFormat.java:366)
+	at com.avenir.utils.DateUtils.formatDate(DateUtils.java:18)
+	at com.avenir.controller.OrdersController.importDataw(OrdersController.java:889)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-30 15:22:09.144 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>16,曹阳,ovU8Mj4W3-K3KWyNkalS6yvqKm5U,18039300001,012661,LSGZJ55L6JH195761,410522199002263836,日照,上汽大通G10(7座商务车),,,3天,用车租赁,2019/6/15 11:46,410522199002263836,,上汽大通G10(7座商务车),是,赵丹,,2019/6/15 11:46,东港区—日照火车站店,日照市东港区黄海三路路北铁路黄海小区沿街107号（火车站出站沿黄海三路往东150米）,400-888-6608,前台电话,是,2019/6/17 12:34,赵丹,,商务车,是,上汽大通G10,1184,1185,1187030511,,3179399811488
+2019-08-30 15:22:09.183 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1184
+2019-08-30 15:22:09.183 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1185
+2019-08-30 15:22:09.183 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>7,房宇,ovU8Mj6enBN_cGa2Tu3__l6uJoZo,18515311762,006553,LSGZJ55L8JH044209,110227199103080910,北京,别克GL8 经典款  ,2019/7/4 10:00,2019/7/7 10:00,3,用车租赁,2019/6/26 16:30,110227199103080910,北京,别克GL8 经典款  ,是,8027,,2019/6/26 16:30,顺义区-首都机场T2送车点,顺义区首都机场货运路海关一号楼A区,400-888-6608,一嗨门店,是,2019/6/26 16:49:22,8027,是,别克GL8 经典款  ,否,别克GL8 经典款  ,1706,,1187200507,客户自行7月4日7点半致电门店取消,16617476173344
+2019-08-30 15:22:09.216 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1706
+2019-08-30 15:22:09.216 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>8,王金启,ovU8Mj4NNpAaENUuVN5vhUwrpD4E,13842562288,006574,LSGZJ55L4JH042361,152122197607150014,丹东,上汽大通G10（商务车）,2019/7/5 17:00,2019/7/8 17:00,3,用车租赁,2019/7/2 18:41,152122197607150014,丹东,上汽大通G10（商务车）,是,8027,,2019/7/2 18:41,金汤街1号,振兴区—丹东新玛特送车点,400-888-6608,一嗨门店,是,2019/7/3 10:03,8027,是,上汽大通G10（商务车）,是,上汽大通G10（商务车）,1064,1064,1187295107,,
+2019-08-30 15:22:09.252 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1064
+2019-08-30 15:22:09.252 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1064
+2019-08-30 15:22:09.252 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>9,徐业杰,ovU8Mj5OfrOEh1OWfZYMvAHFDSjE,18888121606,006640,LSGZJ55L1JH068092,320821199406204531,淮安,上汽大通G10(7座商务车),2019/7/9 9:00,2019/7/12 9:00,3,用车租赁,2019/7/6 13:05,320821199406204531,淮安,上汽大通G10(7座商务车),是,8027,,2019/7/6 13:05,清江浦区-联盛广场送车点,清江浦区淮海南路与新民路交叉口,400-888-6608,一嗨门店,是,2019/7/6 17:15,8027,是,上汽大通G10(7座商务车),是,上汽大通G10(7座商务车),884,884,1187356446,,
+2019-08-30 15:22:09.290 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:884
+2019-08-30 15:22:09.290 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:884
+2019-08-30 15:22:09.290 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>9,张清河,ovU8MjzX-p2xBj90HL061FIOOPPc,13386280251,006323,LSGZJ55L0JH085871,310115198207113854,广州,别克GL8（粤A牌）经典,2019/7/18 10:00,2019/7/21 10:00,3,用车租赁,2019/6/22 9:50,310115198207113854,广州,上汽大通G10(7座商务车),是,8027,,2019/6/22 9:50,白云区—白云机场T2接车点,取车请携带本人有效身份证、驾驶证及信用卡至一嗨租车白云机场店取车。接机地址：抵达广州白云机场T2航站楼三楼出发大厅43号门最外侧车道后致门店电话，等待摆渡车｛摆渡车15分钟一趟｝还车：直接导航“一嗨租车白云机场店“（白云区空港南六路穗佳华南国际航空港-东门内右转100米B栋地下停车场）加油：推荐最近“中国航油”｛横一路加油站｝加油请告知是一嗨租车的车辆，｛内部加油站，不对外｝。,400-888-6608,一嗨门店,是,2019/6/23 11:08,8027,是,上汽大通G10(7座商务车),是,上汽大通G10(7座商务车),1419,1431,1187134492,回访用户时用户更改联系人姓名电话以及身份证号码,3989192478361
+2019-08-30 15:22:09.327 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1419
+2019-08-30 15:22:09.327 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1431
+2019-08-30 15:22:09.327 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>10,陈寅,ovU8MjxkUtssmNHMN1vkishpW8DI,13816230232,007642,LSGZJ55L8JH141250,420601197502021215,太原,上汽大通G10(7座商务车),2019/7/28 20:00,2019/7/31 20:00,3,用车租赁,2019/7/9 15:28,420601197502021215,太原,上汽大通G10(7座商务车),是,8027,,2019/7/9 15:28,迎泽区-太原火车站店,太原市迎泽区迎泽南街19号铁道大厦火车站店底商（铁道大厦门侧，大厦小酒馆旁）一嗨租车,400-888-6608,一嗨门店,是,2019/7/10 11:06,8027,是,上汽大通G10(7座商务车),是,上汽大通G10(7座商务车),1290,1404,1187404790,用户需要自行续租3天，到8月3号下午14:30,6127144954022
+2019-08-30 15:22:09.363 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1290
+2019-08-30 15:22:09.363 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1404
+2019-08-30 15:22:09.363 [http-nio-8088-exec-4] INFO  com.avenir.utils.LogUtils - line: >>>>>>11,朱宏伟,系统故障看不到信息,15995445498,007357,LSGZJ55L1JH033455,321088198006226735,重庆,别克GL8 经典款,"2019/7/30 20:30,2019/8/2 20:30,3,用车租赁,2019/7/18 19:19,321088198006226735,重庆,别克GL8 经典款,是,8027,,2019/7/18 19:19,江北机场T3店,江北机场T3航站楼国内到达D出口斜对面一嗨租车柜台,400-888-6608,一嗨门店,是,2019/7/23 12:17,8014,是,别克GL8 经典款,是,别克GL8 经典款,1474,1020,1187559886,用户表示自己在微信上预约服务，因该笔订单系统故障，客服无法查询，已致电一嗨客服核实，正常为用户下单,10276392645998
+2019-08-30 15:22:09.398 [http-nio-8088-exec-4] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.text.ParseException: Unparseable date: ""2019/7/30 20:30"] with root cause
+java.text.ParseException: Unparseable date: ""2019/7/30 20:30"
+	at java.text.DateFormat.parse(DateFormat.java:366)
+	at com.avenir.utils.DateUtils.formatDate(DateUtils.java:18)
+	at com.avenir.controller.OrdersController.importDataw(OrdersController.java:874)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:96)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-08-30 15:22:56.436 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - line: >>>>>>16,曹阳,ovU8Mj4W3-K3KWyNkalS6yvqKm5U,18039300001,012661,LSGZJ55L6JH195761,410522199002263836,日照,上汽大通G10(7座商务车),,,3天,用车租赁,2019/6/15 11:46,410522199002263836,,上汽大通G10(7座商务车),是,赵丹,,2019/6/15 11:46,东港区—日照火车站店,日照市东港区黄海三路路北铁路黄海小区沿街107号（火车站出站沿黄海三路往东150米）,400-888-6608,前台电话,是,2019/6/17 12:34,赵丹,,商务车,是,上汽大通G10,1184,1185,1187030511,,3179399811488
+2019-08-30 15:22:56.475 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1184
+2019-08-30 15:22:56.475 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1185
+2019-08-30 15:22:56.475 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - line: >>>>>>7,房宇,ovU8Mj6enBN_cGa2Tu3__l6uJoZo,18515311762,006553,LSGZJ55L8JH044209,110227199103080910,北京,别克GL8 经典款  ,2019/7/4 10:00,2019/7/7 10:00,3,用车租赁,2019/6/26 16:30,110227199103080910,北京,别克GL8 经典款  ,是,8027,,2019/6/26 16:30,顺义区-首都机场T2送车点,顺义区首都机场货运路海关一号楼A区,400-888-6608,一嗨门店,是,2019/6/26 16:49:22,8027,是,别克GL8 经典款  ,否,别克GL8 经典款  ,1706,,1187200507,客户自行7月4日7点半致电门店取消,16617476173344
+2019-08-30 15:22:56.514 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1706
+2019-08-30 15:22:56.515 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - line: >>>>>>8,王金启,ovU8Mj4NNpAaENUuVN5vhUwrpD4E,13842562288,006574,LSGZJ55L4JH042361,152122197607150014,丹东,上汽大通G10（商务车）,2019/7/5 17:00,2019/7/8 17:00,3,用车租赁,2019/7/2 18:41,152122197607150014,丹东,上汽大通G10（商务车）,是,8027,,2019/7/2 18:41,金汤街1号,振兴区—丹东新玛特送车点,400-888-6608,一嗨门店,是,2019/7/3 10:03,8027,是,上汽大通G10（商务车）,是,上汽大通G10（商务车）,1064,1064,1187295107,,
+2019-08-30 15:22:56.553 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1064
+2019-08-30 15:22:56.553 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1064
+2019-08-30 15:22:56.554 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - line: >>>>>>9,徐业杰,ovU8Mj5OfrOEh1OWfZYMvAHFDSjE,18888121606,006640,LSGZJ55L1JH068092,320821199406204531,淮安,上汽大通G10(7座商务车),2019/7/9 9:00,2019/7/12 9:00,3,用车租赁,2019/7/6 13:05,320821199406204531,淮安,上汽大通G10(7座商务车),是,8027,,2019/7/6 13:05,清江浦区-联盛广场送车点,清江浦区淮海南路与新民路交叉口,400-888-6608,一嗨门店,是,2019/7/6 17:15,8027,是,上汽大通G10(7座商务车),是,上汽大通G10(7座商务车),884,884,1187356446,,
+2019-08-30 15:22:56.589 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:884
+2019-08-30 15:22:56.589 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - relMoney m>>>:884
+2019-08-30 15:22:56.589 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - line: >>>>>>9,张清河,ovU8MjzX-p2xBj90HL061FIOOPPc,13386280251,006323,LSGZJ55L0JH085871,310115198207113854,广州,别克GL8（粤A牌）经典,2019/7/18 10:00,2019/7/21 10:00,3,用车租赁,2019/6/22 9:50,310115198207113854,广州,上汽大通G10(7座商务车),是,8027,,2019/6/22 9:50,白云区—白云机场T2接车点,取车请携带本人有效身份证、驾驶证及信用卡至一嗨租车白云机场店取车。接机地址：抵达广州白云机场T2航站楼三楼出发大厅43号门最外侧车道后致门店电话，等待摆渡车｛摆渡车15分钟一趟｝还车：直接导航“一嗨租车白云机场店“（白云区空港南六路穗佳华南国际航空港-东门内右转100米B栋地下停车场）加油：推荐最近“中国航油”｛横一路加油站｝加油请告知是一嗨租车的车辆，｛内部加油站，不对外｝。,400-888-6608,一嗨门店,是,2019/6/23 11:08,8027,是,上汽大通G10(7座商务车),是,上汽大通G10(7座商务车),1419,1431,1187134492,回访用户时用户更改联系人姓名电话以及身份证号码,3989192478361
+2019-08-30 15:22:56.625 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1419
+2019-08-30 15:22:56.625 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1431
+2019-08-30 15:22:56.625 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - line: >>>>>>10,陈寅,ovU8MjxkUtssmNHMN1vkishpW8DI,13816230232,007642,LSGZJ55L8JH141250,420601197502021215,太原,上汽大通G10(7座商务车),2019/7/28 20:00,2019/7/31 20:00,3,用车租赁,2019/7/9 15:28,420601197502021215,太原,上汽大通G10(7座商务车),是,8027,,2019/7/9 15:28,迎泽区-太原火车站店,太原市迎泽区迎泽南街19号铁道大厦火车站店底商（铁道大厦门侧，大厦小酒馆旁）一嗨租车,400-888-6608,一嗨门店,是,2019/7/10 11:06,8027,是,上汽大通G10(7座商务车),是,上汽大通G10(7座商务车),1290,1404,1187404790,用户需要自行续租3天，到8月3号下午14:30,6127144954022
+2019-08-30 15:22:56.663 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1290
+2019-08-30 15:22:56.663 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1404
+2019-08-30 15:22:56.663 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - line: >>>>>>11,朱宏伟,系统故障看不到信息,15995445498,007357,LSGZJ55L1JH033455,321088198006226735,重庆,别克GL8 经典款,2019/7/30 20:30,2019/8/2 20:30,3,用车租赁,2019/7/18 19:19,321088198006226735,重庆,别克GL8 经典款,是,8027,,2019/7/18 19:19,江北机场T3店,江北机场T3航站楼国内到达D出口斜对面一嗨租车柜台,400-888-6608,一嗨门店,是,2019/7/23 12:17,8014,是,别克GL8 经典款,是,别克GL8 经典款,1474,1020,1187559886,用户表示自己在微信上预约服务，因该笔订单系统故障，客服无法查询，已致电一嗨客服核实，正常为用户下单,10276392645998
+2019-08-30 15:22:56.713 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1474
+2019-08-30 15:22:56.713 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - relMoney m>>>:1020
+2019-08-30 15:22:56.713 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - line: >>>>>>17,王颖荻,系统故障看不到信息,13380916200,012547,LSGZJ55L1JH195151,440802198911200818,湛江,上汽大通G10(7座商务车),2019/8/16 13:30,2019/8/19 13:30,3,用车租赁,2019/8/10 10:56,440802198911200818,湛江,上汽大通G10(7座商务车),是,8027,,2019/8/10 10:56,湛江世贸送车点,湛江市赤坎区椹川大道北99号湛江汽运停车场,400-888-6608,一嗨门店,是,,8027,是,上汽大通G10(7座商务车),,上汽大通G10(7座商务车),1499,,1187958924,用户表示自己在微信上预约服务，因该笔订单系统故障，客服无法查询，已致电一嗨客服核实，正常为用户下单,
+2019-08-30 15:22:56.749 [http-nio-8088-exec-6] INFO  com.avenir.utils.LogUtils - ExpMoney m>>>:1499

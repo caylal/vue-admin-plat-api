@@ -1,0 +1,1 @@
+2019-06-10 16:05:13.456 [http-nio-8088-exec-2] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]

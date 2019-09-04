@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.avenir.mapper.OrdersMapper" >
+  <resultMap id="BaseResultMap" type="com.avenir.model.Orders" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="type_id" property="typeId" jdbcType="INTEGER" />
+    <result column="user_id" property="userId" jdbcType="INTEGER" />
+    <result column="user_name" property="userName" jdbcType="VARCHAR" />
+    <result column="open_id" property="openId" jdbcType="VARCHAR" />
+    <result column="user_tel" property="userTel" jdbcType="VARCHAR" />
+    <result column="call_time" property="callTime" jdbcType="TIMESTAMP" />
+    <result column="status" property="status" jdbcType="VARCHAR" />
+    <result column="state" property="state" jdbcType="INTEGER" />
+    <result column="order_type" property="orderType" jdbcType="INTEGER" />
+    <result column="flight" property="flight" jdbcType="VARCHAR" />
+    <result column="airport" property="airport" jdbcType="VARCHAR" />
+    <result column="address" property="address" jdbcType="VARCHAR" />
+    <result column="destination" property="destination" jdbcType="VARCHAR" />
+    <result column="use_time" property="useTime" jdbcType="TIMESTAMP" />
+    <result column="airport_pickup_time" property="airportPickupTime" jdbcType="VARCHAR" />
+    <result column="appointment_time" property="appointmentTime" jdbcType="TIMESTAMP" />
+    <result column="order_time" property="orderTime" jdbcType="TIMESTAMP" />
+    <result column="use_car_type" property="useCarType" jdbcType="INTEGER" />
+    <result column="number" property="number" jdbcType="VARCHAR" />
+    <result column="is_visit" property="isVisit" jdbcType="INTEGER" />
+    <result column="need_order" property="needOrder" jdbcType="INTEGER" />
+    <result column="visitor" property="visitor" jdbcType="VARCHAR" />
+    <result column="visit_time" property="visitTime" jdbcType="TIMESTAMP" />
+    <result column="order_service" property="orderService" jdbcType="VARCHAR" />
+    <result column="is_order" property="isOrder" jdbcType="INTEGER" />
+    <result column="completed" property="completed" jdbcType="INTEGER" />
+    <result column="expect_money" property="expectMoney" jdbcType="DECIMAL" />
+    <result column="reality_money" property="realityMoney" jdbcType="DECIMAL" />
+    <result column="order_no" property="orderNo" jdbcType="VARCHAR" />
+    <result column="record_no" property="recordNo" jdbcType="VARCHAR" />
+    <result column="user_addr" property="userAddr" jdbcType="VARCHAR" />
+    <result column="dealer_addr" property="dealerAddr" jdbcType="VARCHAR" />
+    <result column="contact_name" property="contactName" jdbcType="VARCHAR" />
+    <result column="contact_tel" property="contactTel" jdbcType="VARCHAR" />
+    <result column="is_credit" property="isCredit" jdbcType="INTEGER" />
+    <result column="id_no" property="idNo" jdbcType="VARCHAR" />
+    <result column="driver_no" property="driverNo" jdbcType="VARCHAR" />
+    <result column="rent_city" property="rentCity" jdbcType="VARCHAR" />
+    <result column="order_car_type" property="orderCarType" jdbcType="VARCHAR" />
+    <result column="store_name" property="storeName" jdbcType="VARCHAR" />
+    <result column="store_addr" property="storeAddr" jdbcType="VARCHAR" />
+    <result column="return_name" property="returnName" jdbcType="VARCHAR" />
+    <result column="return_tel" property="returnTel" jdbcType="VARCHAR" />
+    <result column="begin_time" property="beginTime" jdbcType="TIMESTAMP" />
+    <result column="end_time" property="endTime" jdbcType="TIMESTAMP" />
+    <result column="duration" property="duration" jdbcType="VARCHAR" />
+    <result column="service_provider" property="serviceProvider" jdbcType="VARCHAR" />
+    <result column="record_agent" property="recordAgent" jdbcType="VARCHAR" />
+    <result column="order_tel" property="orderTel" jdbcType="VARCHAR" />
+    <result column="is_gl" property="isGl" jdbcType="INTEGER" />
+    <result column="is_replace" property="isReplace" jdbcType="INTEGER" />
+    <result column="replace_car" property="replaceCar" jdbcType="VARCHAR" />
+    <result column="actual_car" property="actualCar" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="update_by" property="updateBy" jdbcType="VARCHAR" />
+    <result column="create_by" property="createBy" jdbcType="VARCHAR" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+  </resultMap>
+
+  <resultMap id="WithUserAndTypeMap" type="com.avenir.model.Orders" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="type_id" property="typeId" jdbcType="INTEGER" />
+    <result column="user_id" property="userId" jdbcType="INTEGER" />
+    <result column="user_name" property="userName" jdbcType="VARCHAR" />
+    <result column="open_id" property="openId" jdbcType="VARCHAR" />
+    <result column="user_tel" property="userTel" jdbcType="VARCHAR" />
+    <result column="call_time" property="callTime" jdbcType="TIMESTAMP" />
+    <result column="status" property="status" jdbcType="VARCHAR" />
+    <result column="state" property="state" jdbcType="INTEGER" />
+    <result column="order_type" property="orderType" jdbcType="INTEGER" />
+    <result column="flight" property="flight" jdbcType="VARCHAR" />
+    <result column="airport" property="airport" jdbcType="VARCHAR" />
+    <result column="address" property="address" jdbcType="VARCHAR" />
+    <result column="destination" property="destination" jdbcType="VARCHAR" />
+    <result column="use_time" property="useTime" jdbcType="TIMESTAMP" />
+    <result column="airport_pickup_time" property="airportPickupTime" jdbcType="VARCHAR" />
+    <result column="appointment_time" property="appointmentTime" jdbcType="TIMESTAMP" />
+    <result column="order_time" property="orderTime" jdbcType="TIMESTAMP" />
+    <result column="use_car_type" property="useCarType" jdbcType="INTEGER" />
+    <result column="number" property="number" jdbcType="INTEGER" />
+    <result column="is_visit" property="isVisit" jdbcType="INTEGER" />
+    <result column="need_order" property="needOrder" jdbcType="INTEGER" />
+    <result column="visitor" property="visitor" jdbcType="VARCHAR" />
+    <result column="visit_time" property="visitTime" jdbcType="TIMESTAMP" />
+    <result column="order_service" property="orderService" jdbcType="VARCHAR" />
+    <result column="is_order" property="isOrder" jdbcType="INTEGER" />
+    <result column="completed" property="completed" jdbcType="INTEGER" />
+    <result column="expect_money" property="expectMoney" jdbcType="DECIMAL" />
+    <result column="reality_money" property="realityMoney" jdbcType="DECIMAL" />
+    <result column="order_no" property="orderNo" jdbcType="VARCHAR" />
+    <result column="record_no" property="recordNo" jdbcType="VARCHAR" />
+    <result column="user_addr" property="userAddr" jdbcType="VARCHAR" />
+    <result column="dealer_addr" property="dealerAddr" jdbcType="VARCHAR" />
+    <result column="contact_name" property="contactName" jdbcType="VARCHAR" />
+    <result column="contact_tel" property="contactTel" jdbcType="VARCHAR" />
+    <result column="is_credit" property="isCredit" jdbcType="INTEGER" />
+    <result column="id_no" property="idNo" jdbcType="VARCHAR" />
+    <result column="driver_no" property="driverNo" jdbcType="VARCHAR" />
+    <result column="rent_city" property="rentCity" jdbcType="VARCHAR" />
+    <result column="order_car_type" property="orderCarType" jdbcType="VARCHAR" />
+    <result column="store_name" property="storeName" jdbcType="VARCHAR" />
+    <result column="store_addr" property="storeAddr" jdbcType="VARCHAR" />
+    <result column="return_name" property="returnName" jdbcType="VARCHAR" />
+    <result column="return_tel" property="returnTel" jdbcType="VARCHAR" />
+    <result column="begin_time" property="beginTime" jdbcType="TIMESTAMP" />
+    <result column="end_time" property="endTime" jdbcType="TIMESTAMP" />
+    <result column="duration" property="duration" jdbcType="VARCHAR" />
+    <result column="service_provider" property="serviceProvider" jdbcType="VARCHAR" />
+    <result column="record_agent" property="recordAgent" jdbcType="VARCHAR" />
+    <result column="order_tel" property="orderTel" jdbcType="VARCHAR" />
+    <result column="is_gl" property="isGl" jdbcType="INTEGER" />
+    <result column="is_replace" property="isReplace" jdbcType="INTEGER" />
+    <result column="replace_car" property="replaceCar" jdbcType="VARCHAR" />
+    <result column="actual_car" property="actualCar" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="update_by" property="updateBy" jdbcType="VARCHAR" />
+    <result column="create_by" property="createBy" jdbcType="VARCHAR" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+    <result column="count" property="count" jdbcType="INTEGER" />
+    <association property="user" javaType="com.avenir.model.Users">
+      <id column="u_id" property="id" jdbcType="INTEGER" />
+      <result column="vin" property="vin" jdbcType="VARCHAR" />
+      <result column="c_name" property="userName" jdbcType="VARCHAR" />
+      <result column="c_openid" property="openId" jdbcType="VARCHAR" />
+      <result column="phone" property="phone" jdbcType="VARCHAR" />
+      <result column="service_card" property="serviceCard" jdbcType="VARCHAR" />
+      <result column="service_card_old" property="serviceCardOld" jdbcType="VARCHAR" />
+      <result column="service_type" property="serviceType" jdbcType="VARCHAR" />
+      <result column="car_type" property="carType" jdbcType="VARCHAR" />
+      <result column="car_license" property="carLicense" jdbcType="VARCHAR" />
+      <result column="id_no" property="idNo" jdbcType="VARCHAR" />
+      <result column="driver_no" property="driverNo" jdbcType="VARCHAR" />
+      <result column="invoice_time" property="invoiceTime" jdbcType="TIMESTAMP" />
+      <result column="report_time" property="reportTime" jdbcType="TIMESTAMP" />
+      <result column="due_time" property="dueTime" jdbcType="TIMESTAMP" />
+      <result column="due_count" property="dueCount" jdbcType="INTEGER" />
+      <result column="a_total_count" property="aTotalCount" jdbcType="INTEGER" />
+      <result column="a_total_used" property="aTotalUsed" jdbcType="INTEGER" />
+      <result column="a_current_count" property="aCurrentCount" jdbcType="INTEGER" />
+      <result column="p_total_count" property="pTotalCount" jdbcType="INTEGER" />
+      <result column="p_total_used" property="pTotalUsed" jdbcType="INTEGER" />
+      <result column="p_current_count" property="pCurrentCount" jdbcType="INTEGER" />
+      <result column="r_total_count" property="rTotalCount" jdbcType="INTEGER" />
+      <result column="r_total_used" property="rTotalUsed" jdbcType="INTEGER" />
+      <result column="r_current_count" property="rCurrentCount" jdbcType="INTEGER" />
+      <result column="vin_type" property="vinType" jdbcType="VARCHAR" />
+    </association>
+    <association property="type" javaType="com.avenir.model.Types">
+      <result column="type" property="type" jdbcType="INTEGER" />
+      <result column="name" property="name" jdbcType="VARCHAR" />
+    </association>
+
+  </resultMap>
+  <resultMap id="CountServiceByYearMap" type="com.avenir.model.OrderOV" >
+    <result column="vin" property="vin" jdbcType="VARCHAR" />
+    <result column="createTime" property="create_time" jdbcType="TIMESTAMP" />
+    <result column="useTime" property="use_time" jdbcType="TIMESTAMP" />
+    <result column="endTime" property="end_time" jdbcType="TIMESTAMP" />
+    <result column="count" property="count" jdbcType="INTEGER" />
+  </resultMap>
+  <resultMap id="CountOrderTotal" type="com.avenir.model.OrderOV">
+    <result column="useTime" property="use_time" jdbcType="TIMESTAMP" />
+    <result column="endTime" property="end_time" jdbcType="TIMESTAMP" />
+    <result column="total" property="total" jdbcType="INTEGER" />
+    <result column="completed" property="completed" jdbcType="INTEGER" />
+    <result column="cancel" property="cancel" jdbcType="INTEGER" />
+    <result column="handle" property="handle" jdbcType="INTEGER" />
+    <result column="person" property="person" jdbcType="INTEGER" />
+    <result column="wechat" property="wechat" jdbcType="INTEGER" />
+    <result column="money" property="money" jdbcType="DECIMAL" />
+    <result column="eightGl" property="eight_gl" jdbcType="INTEGER" />
+    <result column="nineGl" property="nine_gl" jdbcType="INTEGER" />
+    <result column="eightJy" property="eight_jy" jdbcType="INTEGER" />
+    <result column="nineJy" property="nine_jy" jdbcType="INTEGER" />
+    <result column="sevenGl" property="seven_gl" jdbcType="INTEGER" />
+  </resultMap>
+
+
+  <sql id="Base_Column_List" >
+    id, type_id, user_id, user_name, open_id, user_tel, call_time, status, state, order_type,
+    flight, airport, address, destination, use_time, airport_pickup_time, appointment_time,
+    order_time, use_car_type, number, is_visit, need_order, visitor, visit_time, order_service,
+    is_order, completed, expect_money, reality_money, order_no, record_no, user_addr,
+    dealer_addr, contact_name, contact_tel, is_credit, id_no, driver_no, rent_city, order_car_type,
+    store_name, store_addr, return_name, return_tel, begin_time, end_time, duration,
+    service_provider, record_agent, order_tel, is_gl, is_replace, replace_car, actual_car,
+    create_time, update_time, update_by, create_by, remark
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from orders
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from orders
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.avenir.model.Orders" >
+    insert into orders (id, type_id, user_id,
+      user_name, open_id, user_tel,
+      call_time, status, state,
+      order_type, flight, airport,
+      address, destination, use_time,
+      airport_pickup_time, appointment_time, order_time,
+      use_car_type, number, is_visit,
+      need_order, visitor, visit_time,
+      order_service, is_order, completed,
+      expect_money, reality_money, order_no,
+      record_no, user_addr, dealer_addr,
+      contact_name, contact_tel, is_credit,
+      id_no, driver_no, rent_city,
+      order_car_type, store_name, store_addr,
+      return_name, return_tel, begin_time,
+      end_time, duration, service_provider,
+      record_agent, order_tel, is_gl,
+      is_replace, replace_car, actual_car,
+      create_time, update_time, update_by,
+      create_by, remark)
+    values (#{id,jdbcType=INTEGER}, #{typeId,jdbcType=INTEGER}, #{userId,jdbcType=INTEGER},
+      #{userName,jdbcType=VARCHAR}, #{openId,jdbcType=VARCHAR}, #{userTel,jdbcType=VARCHAR},
+      #{callTime,jdbcType=TIMESTAMP}, #{status,jdbcType=VARCHAR}, #{state,jdbcType=INTEGER},
+      #{orderType,jdbcType=INTEGER}, #{flight,jdbcType=VARCHAR}, #{airport,jdbcType=VARCHAR},
+      #{address,jdbcType=VARCHAR}, #{destination,jdbcType=VARCHAR}, #{useTime,jdbcType=TIMESTAMP},
+      #{airportPickupTime,jdbcType=VARCHAR}, #{appointmentTime,jdbcType=TIMESTAMP}, #{orderTime,jdbcType=TIMESTAMP},
+      #{useCarType,jdbcType=INTEGER}, #{number,jdbcType=VARCHAR}, #{isVisit,jdbcType=INTEGER},
+      #{needOrder,jdbcType=INTEGER}, #{visitor,jdbcType=VARCHAR}, #{visitTime,jdbcType=TIMESTAMP},
+      #{orderService,jdbcType=VARCHAR}, #{isOrder,jdbcType=INTEGER}, #{completed,jdbcType=INTEGER},
+      #{expectMoney,jdbcType=DECIMAL}, #{realityMoney,jdbcType=DECIMAL}, #{orderNo,jdbcType=VARCHAR},
+      #{recordNo,jdbcType=VARCHAR}, #{userAddr,jdbcType=VARCHAR}, #{dealerAddr,jdbcType=VARCHAR},
+      #{contactName,jdbcType=VARCHAR}, #{contactTel,jdbcType=VARCHAR}, #{isCredit,jdbcType=INTEGER},
+      #{idNo,jdbcType=VARCHAR}, #{driverNo,jdbcType=VARCHAR}, #{rentCity,jdbcType=VARCHAR},
+      #{orderCarType,jdbcType=VARCHAR}, #{storeName,jdbcType=VARCHAR}, #{storeAddr,jdbcType=VARCHAR},
+      #{returnName,jdbcType=VARCHAR}, #{returnTel,jdbcType=VARCHAR}, #{beginTime,jdbcType=TIMESTAMP},
+      #{endTime,jdbcType=TIMESTAMP}, #{duration,jdbcType=VARCHAR}, #{serviceProvider,jdbcType=VARCHAR},
+      #{recordAgent,jdbcType=VARCHAR}, #{orderTel,jdbcType=VARCHAR}, #{isGl,jdbcType=INTEGER},
+      #{isReplace,jdbcType=INTEGER}, #{replaceCar,jdbcType=VARCHAR}, #{actualCar,jdbcType=VARCHAR},
+      #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}, #{updateBy,jdbcType=VARCHAR},
+      #{createBy,jdbcType=VARCHAR}, #{remark,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.avenir.model.Orders" >
+    insert into orders
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="typeId != null" >
+        type_id,
+      </if>
+      <if test="userId != null" >
+        user_id,
+      </if>
+      <if test="userName != null" >
+        user_name,
+      </if>
+      <if test="openId != null" >
+        open_id,
+      </if>
+      <if test="userTel != null" >
+        user_tel,
+      </if>
+      <if test="callTime != null" >
+        call_time,
+      </if>
+      <if test="status != null" >
+        status,
+      </if>
+      <if test="state != null" >
+        state,
+      </if>
+      <if test="orderType != null" >
+        order_type,
+      </if>
+      <if test="flight != null" >
+        flight,
+      </if>
+      <if test="airport != null" >
+        airport,
+      </if>
+      <if test="address != null" >
+        address,
+      </if>
+      <if test="destination != null" >
+        destination,
+      </if>
+      <if test="useTime != null" >
+        use_time,
+      </if>
+      <if test="airportPickupTime != null" >
+        airport_pickup_time,
+      </if>
+      <if test="appointmentTime != null" >
+        appointment_time,
+      </if>
+      <if test="orderTime != null" >
+        order_time,
+      </if>
+      <if test="useCarType != null" >
+        use_car_type,
+      </if>
+      <if test="number != null" >
+        number,
+      </if>
+      <if test="isVisit != null" >
+        is_visit,
+      </if>
+      <if test="needOrder != null" >
+        need_order,
+      </if>
+      <if test="visitor != null" >
+        visitor,
+      </if>
+      <if test="visitTime != null" >
+        visit_time,
+      </if>
+      <if test="orderService != null" >
+        order_service,
+      </if>
+      <if test="isOrder != null" >
+        is_order,
+      </if>
+      <if test="completed != null" >
+        completed,
+      </if>
+      <if test="expectMoney != null" >
+        expect_money,
+      </if>
+      <if test="realityMoney != null" >
+        reality_money,
+      </if>
+      <if test="orderNo != null" >
+        order_no,
+      </if>
+      <if test="recordNo != null" >
+        record_no,
+      </if>
+      <if test="userAddr != null" >
+        user_addr,
+      </if>
+      <if test="dealerAddr != null" >
+        dealer_addr,
+      </if>
+      <if test="contactName != null" >
+        contact_name,
+      </if>
+      <if test="contactTel != null" >
+        contact_tel,
+      </if>
+      <if test="isCredit != null" >
+        is_credit,
+      </if>
+      <if test="idNo != null" >
+        id_no,
+      </if>
+      <if test="driverNo != null" >
+        driver_no,
+      </if>
+      <if test="rentCity != null" >
+        rent_city,
+      </if>
+      <if test="orderCarType != null" >
+        order_car_type,
+      </if>
+      <if test="storeName != null" >
+        store_name,
+      </if>
+      <if test="storeAddr != null" >
+        store_addr,
+      </if>
+      <if test="returnName != null" >
+        return_name,
+      </if>
+      <if test="returnTel != null" >
+        return_tel,
+      </if>
+      <if test="beginTime != null" >
+        begin_time,
+      </if>
+      <if test="endTime != null" >
+        end_time,
+      </if>
+      <if test="duration != null" >
+        duration,
+      </if>
+      <if test="serviceProvider != null" >
+        service_provider,
+      </if>
+      <if test="recordAgent != null" >
+        record_agent,
+      </if>
+      <if test="orderTel != null" >
+        order_tel,
+      </if>
+      <if test="isGl != null" >
+        is_gl,
+      </if>
+      <if test="isReplace != null" >
+        is_replace,
+      </if>
+      <if test="replaceCar != null" >
+        replace_car,
+      </if>
+      <if test="actualCar != null" >
+        actual_car,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="updateTime != null" >
+        update_time,
+      </if>
+      <if test="updateBy != null" >
+        update_by,
+      </if>
+      <if test="createBy != null" >
+        create_by,
+      </if>
+      <if test="remark != null" >
+        remark,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="typeId != null" >
+        #{typeId,jdbcType=INTEGER},
+      </if>
+      <if test="userId != null" >
+        #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="userName != null" >
+        #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="openId != null" >
+        #{openId,jdbcType=VARCHAR},
+      </if>
+      <if test="userTel != null" >
+        #{userTel,jdbcType=VARCHAR},
+      </if>
+      <if test="callTime != null" >
+        #{callTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="status != null" >
+        #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="state != null" >
+        #{state,jdbcType=INTEGER},
+      </if>
+      <if test="orderType != null" >
+        #{orderType,jdbcType=INTEGER},
+      </if>
+      <if test="flight != null" >
+        #{flight,jdbcType=VARCHAR},
+      </if>
+      <if test="airport != null" >
+        #{airport,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null" >
+        #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="destination != null" >
+        #{destination,jdbcType=VARCHAR},
+      </if>
+      <if test="useTime != null" >
+        #{useTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="airportPickupTime != null" >
+        #{airportPickupTime,jdbcType=VARCHAR},
+      </if>
+      <if test="appointmentTime != null" >
+        #{appointmentTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="orderTime != null" >
+        #{orderTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="useCarType != null" >
+        #{useCarType,jdbcType=INTEGER},
+      </if>
+      <if test="number != null" >
+        #{number,jdbcType=VARCHAR},
+      </if>
+      <if test="isVisit != null" >
+        #{isVisit,jdbcType=INTEGER},
+      </if>
+      <if test="needOrder != null" >
+        #{needOrder,jdbcType=INTEGER},
+      </if>
+      <if test="visitor != null" >
+        #{visitor,jdbcType=VARCHAR},
+      </if>
+      <if test="visitTime != null" >
+        #{visitTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="orderService != null" >
+        #{orderService,jdbcType=VARCHAR},
+      </if>
+      <if test="isOrder != null" >
+        #{isOrder,jdbcType=INTEGER},
+      </if>
+      <if test="completed != null" >
+        #{completed,jdbcType=INTEGER},
+      </if>
+      <if test="expectMoney != null" >
+        #{expectMoney,jdbcType=DECIMAL},
+      </if>
+      <if test="realityMoney != null" >
+        #{realityMoney,jdbcType=DECIMAL},
+      </if>
+      <if test="orderNo != null" >
+        #{orderNo,jdbcType=VARCHAR},
+      </if>
+      <if test="recordNo != null" >
+        #{recordNo,jdbcType=VARCHAR},
+      </if>
+      <if test="userAddr != null" >
+        #{userAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="dealerAddr != null" >
+        #{dealerAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="contactName != null" >
+        #{contactName,jdbcType=VARCHAR},
+      </if>
+      <if test="contactTel != null" >
+        #{contactTel,jdbcType=VARCHAR},
+      </if>
+      <if test="isCredit != null" >
+        #{isCredit,jdbcType=INTEGER},
+      </if>
+      <if test="idNo != null" >
+        #{idNo,jdbcType=VARCHAR},
+      </if>
+      <if test="driverNo != null" >
+        #{driverNo,jdbcType=VARCHAR},
+      </if>
+      <if test="rentCity != null" >
+        #{rentCity,jdbcType=VARCHAR},
+      </if>
+      <if test="orderCarType != null" >
+        #{orderCarType,jdbcType=VARCHAR},
+      </if>
+      <if test="storeName != null" >
+        #{storeName,jdbcType=VARCHAR},
+      </if>
+      <if test="storeAddr != null" >
+        #{storeAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="returnName != null" >
+        #{returnName,jdbcType=VARCHAR},
+      </if>
+      <if test="returnTel != null" >
+        #{returnTel,jdbcType=VARCHAR},
+      </if>
+      <if test="beginTime != null" >
+        #{beginTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="endTime != null" >
+        #{endTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="duration != null" >
+        #{duration,jdbcType=VARCHAR},
+      </if>
+      <if test="serviceProvider != null" >
+        #{serviceProvider,jdbcType=VARCHAR},
+      </if>
+      <if test="recordAgent != null" >
+        #{recordAgent,jdbcType=VARCHAR},
+      </if>
+      <if test="orderTel != null" >
+        #{orderTel,jdbcType=VARCHAR},
+      </if>
+      <if test="isGl != null" >
+        #{isGl,jdbcType=INTEGER},
+      </if>
+      <if test="isReplace != null" >
+        #{isReplace,jdbcType=INTEGER},
+      </if>
+      <if test="replaceCar != null" >
+        #{replaceCar,jdbcType=VARCHAR},
+      </if>
+      <if test="actualCar != null" >
+        #{actualCar,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateBy != null" >
+        #{updateBy,jdbcType=VARCHAR},
+      </if>
+      <if test="createBy != null" >
+        #{createBy,jdbcType=VARCHAR},
+      </if>
+      <if test="remark != null" >
+        #{remark,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.avenir.model.Orders" >
+    update orders
+    <set >
+      <if test="typeId != null" >
+        type_id = #{typeId,jdbcType=INTEGER},
+      </if>
+      <if test="userId != null" >
+        user_id = #{userId,jdbcType=INTEGER},
+      </if>
+      <if test="userName != null" >
+        user_name = #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="openId != null" >
+        open_id = #{openId,jdbcType=VARCHAR},
+      </if>
+      <if test="userTel != null" >
+        user_tel = #{userTel,jdbcType=VARCHAR},
+      </if>
+      <if test="callTime != null" >
+        call_time = #{callTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="status != null" >
+        status = #{status,jdbcType=VARCHAR},
+      </if>
+      <if test="state != null" >
+        state = #{state,jdbcType=INTEGER},
+      </if>
+      <if test="orderType != null" >
+        order_type = #{orderType,jdbcType=INTEGER},
+      </if>
+      <if test="flight != null" >
+        flight = #{flight,jdbcType=VARCHAR},
+      </if>
+      <if test="airport != null" >
+        airport = #{airport,jdbcType=VARCHAR},
+      </if>
+      <if test="address != null" >
+        address = #{address,jdbcType=VARCHAR},
+      </if>
+      <if test="destination != null" >
+        destination = #{destination,jdbcType=VARCHAR},
+      </if>
+      <if test="useTime != null" >
+        use_time = #{useTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="airportPickupTime != null" >
+        airport_pickup_time = #{airportPickupTime,jdbcType=VARCHAR},
+      </if>
+      <if test="appointmentTime != null" >
+        appointment_time = #{appointmentTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="orderTime != null" >
+        order_time = #{orderTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="useCarType != null" >
+        use_car_type = #{useCarType,jdbcType=INTEGER},
+      </if>
+      <if test="number != null" >
+        number = #{number,jdbcType=VARCHAR},
+      </if>
+      <if test="isVisit != null" >
+        is_visit = #{isVisit,jdbcType=INTEGER},
+      </if>
+      <if test="needOrder != null" >
+        need_order = #{needOrder,jdbcType=INTEGER},
+      </if>
+      <if test="visitor != null" >
+        visitor = #{visitor,jdbcType=VARCHAR},
+      </if>
+      <if test="visitTime != null" >
+        visit_time = #{visitTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="orderService != null" >
+        order_service = #{orderService,jdbcType=VARCHAR},
+      </if>
+      <if test="isOrder != null" >
+        is_order = #{isOrder,jdbcType=INTEGER},
+      </if>
+      <if test="completed != null" >
+        completed = #{completed,jdbcType=INTEGER},
+      </if>
+      <if test="expectMoney != null" >
+        expect_money = #{expectMoney,jdbcType=DECIMAL},
+      </if>
+      <if test="realityMoney != null" >
+        reality_money = #{realityMoney,jdbcType=DECIMAL},
+      </if>
+      <if test="orderNo != null" >
+        order_no = #{orderNo,jdbcType=VARCHAR},
+      </if>
+      <if test="recordNo != null" >
+        record_no = #{recordNo,jdbcType=VARCHAR},
+      </if>
+      <if test="userAddr != null" >
+        user_addr = #{userAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="dealerAddr != null" >
+        dealer_addr = #{dealerAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="contactName != null" >
+        contact_name = #{contactName,jdbcType=VARCHAR},
+      </if>
+      <if test="contactTel != null" >
+        contact_tel = #{contactTel,jdbcType=VARCHAR},
+      </if>
+      <if test="isCredit != null" >
+        is_credit = #{isCredit,jdbcType=INTEGER},
+      </if>
+      <if test="idNo != null" >
+        id_no = #{idNo,jdbcType=VARCHAR},
+      </if>
+      <if test="driverNo != null" >
+        driver_no = #{driverNo,jdbcType=VARCHAR},
+      </if>
+      <if test="rentCity != null" >
+        rent_city = #{rentCity,jdbcType=VARCHAR},
+      </if>
+      <if test="orderCarType != null" >
+        order_car_type = #{orderCarType,jdbcType=VARCHAR},
+      </if>
+      <if test="storeName != null" >
+        store_name = #{storeName,jdbcType=VARCHAR},
+      </if>
+      <if test="storeAddr != null" >
+        store_addr = #{storeAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="returnName != null" >
+        return_name = #{returnName,jdbcType=VARCHAR},
+      </if>
+      <if test="returnTel != null" >
+        return_tel = #{returnTel,jdbcType=VARCHAR},
+      </if>
+      <if test="beginTime != null" >
+        begin_time = #{beginTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="endTime != null" >
+        end_time = #{endTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="duration != null" >
+        duration = #{duration,jdbcType=VARCHAR},
+      </if>
+      <if test="serviceProvider != null" >
+        service_provider = #{serviceProvider,jdbcType=VARCHAR},
+      </if>
+      <if test="recordAgent != null" >
+        record_agent = #{recordAgent,jdbcType=VARCHAR},
+      </if>
+      <if test="orderTel != null" >
+        order_tel = #{orderTel,jdbcType=VARCHAR},
+      </if>
+      <if test="isGl != null" >
+        is_gl = #{isGl,jdbcType=INTEGER},
+      </if>
+      <if test="isReplace != null" >
+        is_replace = #{isReplace,jdbcType=INTEGER},
+      </if>
+      <if test="replaceCar != null" >
+        replace_car = #{replaceCar,jdbcType=VARCHAR},
+      </if>
+      <if test="actualCar != null" >
+        actual_car = #{actualCar,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateBy != null" >
+        update_by = #{updateBy,jdbcType=VARCHAR},
+      </if>
+      <if test="createBy != null" >
+        create_by = #{createBy,jdbcType=VARCHAR},
+      </if>
+      <if test="remark != null" >
+        remark = #{remark,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.avenir.model.Orders" >
+   update orders
+    set type_id = #{typeId,jdbcType=INTEGER},
+      user_id = #{userId,jdbcType=INTEGER},
+      user_name = #{userName,jdbcType=VARCHAR},
+      open_id = #{openId,jdbcType=VARCHAR},
+      user_tel = #{userTel,jdbcType=VARCHAR},
+      call_time = #{callTime,jdbcType=TIMESTAMP},
+      status = #{status,jdbcType=VARCHAR},
+      state = #{state,jdbcType=INTEGER},
+      order_type = #{orderType,jdbcType=INTEGER},
+      flight = #{flight,jdbcType=VARCHAR},
+      airport = #{airport,jdbcType=VARCHAR},
+      address = #{address,jdbcType=VARCHAR},
+      destination = #{destination,jdbcType=VARCHAR},
+      use_time = #{useTime,jdbcType=TIMESTAMP},
+      airport_pickup_time = #{airportPickupTime,jdbcType=VARCHAR},
+      appointment_time = #{appointmentTime,jdbcType=TIMESTAMP},
+      order_time = #{orderTime,jdbcType=TIMESTAMP},
+      use_car_type = #{useCarType,jdbcType=INTEGER},
+      number = #{number,jdbcType=VARCHAR},
+      is_visit = #{isVisit,jdbcType=INTEGER},
+      need_order = #{needOrder,jdbcType=INTEGER},
+      visitor = #{visitor,jdbcType=VARCHAR},
+      visit_time = #{visitTime,jdbcType=TIMESTAMP},
+      order_service = #{orderService,jdbcType=VARCHAR},
+      is_order = #{isOrder,jdbcType=INTEGER},
+      completed = #{completed,jdbcType=INTEGER},
+      expect_money = #{expectMoney,jdbcType=DECIMAL},
+      reality_money = #{realityMoney,jdbcType=DECIMAL},
+      order_no = #{orderNo,jdbcType=VARCHAR},
+      record_no = #{recordNo,jdbcType=VARCHAR},
+      user_addr = #{userAddr,jdbcType=VARCHAR},
+      dealer_addr = #{dealerAddr,jdbcType=VARCHAR},
+      contact_name = #{contactName,jdbcType=VARCHAR},
+      contact_tel = #{contactTel,jdbcType=VARCHAR},
+      is_credit = #{isCredit,jdbcType=INTEGER},
+      id_no = #{idNo,jdbcType=VARCHAR},
+      driver_no = #{driverNo,jdbcType=VARCHAR},
+      rent_city = #{rentCity,jdbcType=VARCHAR},
+      order_car_type = #{orderCarType,jdbcType=VARCHAR},
+      store_name = #{storeName,jdbcType=VARCHAR},
+      store_addr = #{storeAddr,jdbcType=VARCHAR},
+      return_name = #{returnName,jdbcType=VARCHAR},
+      return_tel = #{returnTel,jdbcType=VARCHAR},
+      begin_time = #{beginTime,jdbcType=TIMESTAMP},
+      end_time = #{endTime,jdbcType=TIMESTAMP},
+      duration = #{duration,jdbcType=VARCHAR},
+      service_provider = #{serviceProvider,jdbcType=VARCHAR},
+      record_agent = #{recordAgent,jdbcType=VARCHAR},
+      order_tel = #{orderTel,jdbcType=VARCHAR},
+      is_gl = #{isGl,jdbcType=INTEGER},
+      is_replace = #{isReplace,jdbcType=INTEGER},
+      replace_car = #{replaceCar,jdbcType=VARCHAR},
+      actual_car = #{actualCar,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP},
+      update_by = #{updateBy,jdbcType=VARCHAR},
+      create_by = #{createBy,jdbcType=VARCHAR},
+      remark = #{remark,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+
+  <select id="findOrder" resultMap="WithUserAndTypeMap" parameterType="com.avenir.model.Orders" >
+    select
+    o.id, o.type_id, o.user_id,o.user_name,o.open_id, o.user_tel, o.call_time, o.status, o.state,o.order_type, o.flight, o.airport, o.address, o.destination,
+    o.use_time, o.airport_pickup_time, o.appointment_time, o.order_time, o.use_car_type, o.number,
+    o.is_visit, o.need_order, o.visitor, o.visit_time, o.order_service, o.is_order, o.completed, o.expect_money,
+    o.reality_money, o.order_no, o.record_no, o.user_addr, o.dealer_addr, o.contact_name,
+    o.contact_tel, o.is_credit, o.id_no, o.driver_no,o.rent_city, o.order_car_type, o.store_name,
+    o.store_addr,o.return_name, o.return_tel,o.begin_time, o.end_time, o.duration, o.service_provider,o.record_agent, o.order_tel, o.is_gl, o.is_replace,
+    o.replace_car, o.actual_car, o.create_time, o.update_time, o.update_by, o.create_by, o.remark,
+    u.id as u_id, u.vin, u.user_name as c_name, u.open_id as c_openid, u.phone, u.service_card, u.service_type, u.car_type,
+    u.car_license, u.report_time,u.due_time,u.due_count, u.a_total_count, u.a_total_used, u.a_current_count, u.p_total_count,
+    u.p_total_used,u.p_current_count,u.r_total_count, u.r_total_used,u.r_current_count,u.vin_type,t.type, t.name
+    from orders o left join users u on o.user_id = u.id
+    left join types t on o.type_id = t.type
+    where 1=1
+    <if test="id != null and id != ''">
+      AND o.id= #{id}
+    </if>
+    <if test="typeId != null and typeId != ''">
+      AND o.type_id= #{typeId}
+    </if>
+    <if test="orderType != null and orderType != ''">
+      AND o.order_type= #{orderType}
+    </if>
+    <if test="user.serviceCard != null and user.serviceCard != ''">
+      AND u.service_card= #{user.serviceCard}
+    </if>
+    <if test="userName != null and userName != ''">
+      AND o.user_name= #{userName}
+    </if>
+    <if test="userTel != null and userTel != ''">
+      AND o.user_tel= #{userTel}
+    </if>
+    <if test="useCarType != null and useCarType != ''">
+      AND o.use_car_type= #{useCarType}
+    </if>
+    <if test="user.vin != null and user.vin != ''">
+      AND u.vin= #{user.vin}
+    </if>
+    <if test="isOrder != null and isOrder != ''">
+      AND o.is_order= #{isOrder}
+    </if>
+    <if test="completed != null and completed != ''">
+      AND o.completed= #{completed}
+    </if>
+    <if test="state != null and state != ''">
+      AND o.state = #{state}
+    </if>
+    <if test="orderNo != null and orderNo != ''">
+      AND o.order_no= #{orderNo}
+    </if>
+    <if test="user.carType != null and user.carType != ''">
+      AND u.car_type= #{user.carType}
+    </if>
+    <if test="flight != null and flight != ''">
+      AND o.flight= #{flight}
+    </if>
+    <if test="user.carLicense != null and user.carLicense != ''">
+      AND u.car_license= #{user.carLicense}
+    </if>
+    <if test="serviceProvider != null and serviceProvider != ''">
+      AND o.service_provider= #{serviceProvider}
+    </if>
+    <if test="rentCity != null and rentCity != ''">
+      AND o.rent_city= #{rentCity}
+    </if>
+    <if test="useTimeStart != null">
+      AND o.use_time &gt;= #{useTimeStart}
+    </if>
+    <if test="useTimeEnd != null">
+      AND o.use_time &lt;= #{useTimeEnd}
+    </if>
+    <if test="reportTimeStart != null">
+      AND u.report_time &gt;= #{reportTimeStart}
+    </if>
+    <if test="reportTimeEnd != null">
+      AND u.report_time &lt;= #{reportTimeEnd}
+    </if>
+    <if test="orderTimeStart != null">
+      AND o.order_time &gt;= #{orderTimeStart}
+    </if>
+    <if test="orderTimeEnd != null">
+      AND o.order_time &lt;= #{orderTimeEnd}
+    </if>
+    <if test="appointmentTimeStart != null">
+      AND o.appointment_time &gt;= #{appointmentTimeStart}
+    </if>
+    <if test="appointmentTimeEnd != null">
+      AND o.appointment_time &lt;= #{appointmentTimeEnd}
+    </if>
+    <if test="beginTimeStart != null">
+      AND o.begin_time &gt;= #{beginTimeStart}
+    </if>
+    <if test="beginTimeEnd != null">
+      AND o.begin_time &lt;= #{beginTimeEnd}
+    </if>
+    <if test="endTimeStart != null">
+      AND o.end_time &gt;= #{endTimeStart}
+    </if>
+    <if test="endTimeEnd != null">
+      AND o.end_time &lt;= #{endTimeEnd}
+    </if>
+    <if test="typeId == 2 or typeId == 4">
+      ORDER by o.use_time desc
+    </if>
+    <if test="typeId == 1">
+     ORDER by o.begin_time desc
+    </if>
+  </select>
+  <select id="selectByOrderNo" resultMap="BaseResultMap" parameterType="java.util.Map" >
+    select
+    <include refid="Base_Column_List" />
+    from orders
+    where order_no = #{orderNo,jdbcType=VARCHAR} and type_id= #{typeId,jdbcType=INTEGER}
+  </select>
+  <select id="countByVin" resultType="java.lang.Integer" parameterType="java.util.Map" >
+    select count(1) from
+    orders o left JOIN users u on o.user_id = u.id
+    where u.vin = #{vin,jdbcType=VARCHAR} and o.type_id = #{typeId, jdbcType=INTEGER}
+    and o.completed = '1'
+    <if test="typeId == 2 or typeId == 4">
+      and o.use_time &gt;= #{startTime,jdbcType=TIMESTAMP} and o.use_time &lt;= #{endTime,jdbcType=TIMESTAMP}
+    </if>
+    <if test="typeId == 1">
+      and o.end_time &gt;= #{startTime,jdbcType=TIMESTAMP} and o.end_time &lt;= #{endTime,jdbcType=TIMESTAMP}
+    </if>
+  </select>
+  <select id="countByVinAll" resultType="java.lang.Integer" parameterType="java.util.Map" >
+    select count(1) from
+    orders o left JOIN users u on o.user_id = u.id
+    where u.vin = #{vin,jdbcType=VARCHAR} and o.type_id = #{typeId, jdbcType=INTEGER} and o.completed = '1'
+  </select>
+
+  <select id="selectUseDetail" resultMap="WithUserAndTypeMap" parameterType="java.util.Map" >
+    select u.vin, o.type_id, t.name,o.use_car_type,o.use_time,o.begin_time,o.address,o.destination,o.rent_city,o.dealer_addr
+    from orders o left join users u on o.user_id = u.id
+    left join types t on o.type_id = t.type
+    where u.vin = #{vin,jdbcType=VARCHAR} and o.type_id = #{typeId, jdbcType=INTEGER} and o.completed = '1'
+  </select>
+
+  <select id="selectCountByVin" resultMap="CountServiceByYearMap" parameterType="java.util.Map" >
+   select u.vin,o.end_time,o.use_time,count(1)as count
+    from orders o left join users u on o.user_id = u.id
+    left join types t on o.type_id = t.type
+    where o.completed = '1' and o.type_id = #{typeId, jdbcType=INTEGER}  and u.vin= #{vin,jdbcType=VARCHAR}
+     <if test="typeId == 2 or typeId == 4">
+       GROUP BY DATE_FORMAT(o.use_time, '%Y%m%d') ORDER BY o.use_time ASC
+     </if>
+    <if test="typeId == 1">
+      GROUP BY DATE_FORMAT(o.end_time, '%Y%m%d') ORDER BY o.end_time ASC
+    </if>
+
+  </select>
+
+  <select id="selectOrderCountByType" resultMap="CountOrderTotal" parameterType="java.lang.Integer">
+    SELECT use_time, end_time, count(*) as total, SUM(case when state = 2 then 1 else 0 end) as completed,
+      sum(case when state = 3 and is_order = 1 then 1 else 0 end) as cancel,
+      sum(case when state = 1 then 1 else 0 end) as handle,
+      sum(case when order_type = 1 then 1 else 0 end) as person,
+      sum(case when order_type = 2 then 1 else 0 end) as wechat,
+      sum(if(state = 2, reality_money, 0)) as money
+    from orders where type_id = #{typeId}
+    <if test="typeId == 2 or typeId == 4">
+      GROUP BY DATE_FORMAT(use_time, '%Y') ORDER BY use_time ASC
+    </if>
+    <if test="typeId == 1">
+      AND end_time is not null  GROUP BY DATE_FORMAT(end_time, '%Y') ORDER BY end_time ASC
+    </if>
+  </select>
+  <select id="selectOrderCountByCarType" resultMap="CountOrderTotal" parameterType="java.lang.Integer">
+    select o.use_time,o.end_time,
+      sum(case when u.car_type='2017款GL8' then 1 else 0 end) as seven_gl,
+      sum(case when u.car_type='2018款君越' then 1 else 0 end) as eight_jy,
+      sum(case when u.car_type='2018款GL8' then 1 else 0 end) as eight_gl,
+      sum(case when u.car_type='2019款GL8' then 1 else 0 end) as nine_gl,
+      sum(case when u.car_type='2019款君越' then 1 else 0 end) as nine_jy
+    from orders o left join users u on o.user_id = u.id
+    where o.completed = 1 and type_id = #{typeId} and car_type is not null
+    <if test="typeId == 2 or typeId == 4">
+      GROUP BY DATE_FORMAT(o.use_time, '%Y') ORDER BY o.use_time ASC
+    </if>
+    <if test="typeId == 1">
+      GROUP BY DATE_FORMAT(o.end_time, '%Y') ORDER BY o.end_time ASC
+    </if>
+  </select>
+
+  <select id="selectOrderCountByExper" resultMap="CountServiceByYearMap" parameterType="java.util.Map">
+    SELECT o.use_time, o.end_time, u.vin, COUNT(*) as count FROM orders o LEFT JOIN users u ON o.user_id = u.id
+      WHERE o.completed = 1 AND o.type_id = #{typeId} AND u.car_type = #{carType}
+    <if test="typeId == 2 or typeId == 4">
+      GROUP BY u.vin, DATE_FORMAT(o.use_time, '%Y') ORDER BY o.use_time ASC
+    </if>
+    <if test="typeId == 1">
+      GROUP BY u.vin, DATE_FORMAT(o.end_time, '%Y') ORDER BY o.end_time ASC
+    </if>
+  </select>
+  
+  <select id="selectRepeatOrder" resultMap="BaseResultMap" parameterType="java.util.Map">
+    select
+    <include refid="Base_Column_List" />
+    from orders
+    where 1 = 1
+    <if test="userId != null and userId != ''">
+      and user_id = #{userId}
+    </if>
+    <if test="useTime != null">
+      and use_time = #{useTime}
+    </if>
+    <if test="beginTime != null">
+      and begin_time = #{beginTime}
+    </if>
+    <if test="endTime != null">
+      and end_time = #{endTime}
+    </if>
+  </select>
+
+  <insert id="insertBatchAW" parameterType="java.util.List">
+    insert into orders (type_id, user_id,user_tel,user_name,open_id,call_time,
+    state,order_type, flight, address,airport,number,
+    destination, use_time, airport_pickup_time, appointment_time,
+    order_time, use_car_type, is_visit, need_order,
+    visitor, visit_time, order_service, is_order,
+    completed, expect_money, reality_money,order_no,
+    record_no,create_time,create_by, remark)
+    VALUES
+    <foreach collection="list" item="order" separator=",">
+      (
+      #{order.typeId,jdbcType=INTEGER}, #{order.userId,jdbcType=INTEGER},
+      #{order.userTel,jdbcType=VARCHAR}, #{order.userName,jdbcType=VARCHAR},#{order.openId,jdbcType=VARCHAR},#{order.callTime,jdbcType=TIMESTAMP},
+      #{order.state,jdbcType=INTEGER}, #{order.orderType,jdbcType=INTEGER},
+      #{order.flight,jdbcType=VARCHAR}, #{order.address,jdbcType=VARCHAR},#{order.airport,jdbcType=VARCHAR}, #{order.number,jdbcType=VARCHAR},
+      #{order.destination,jdbcType=VARCHAR},
+      #{order.useTime,jdbcType=TIMESTAMP}, #{order.airportPickupTime,jdbcType=VARCHAR}, #{order.appointmentTime,jdbcType=TIMESTAMP},
+      #{order.orderTime,jdbcType=TIMESTAMP}, #{order.useCarType,jdbcType=INTEGER},#{order.isVisit,jdbcType=INTEGER},
+      #{order.needOrder,jdbcType=INTEGER}, #{order.visitor,jdbcType=VARCHAR}, #{order.visitTime,jdbcType=TIMESTAMP},
+      #{order.orderService,jdbcType=VARCHAR}, #{order.isOrder,jdbcType=INTEGER}, #{order.completed,jdbcType=INTEGER},
+      #{order.expectMoney,jdbcType=DECIMAL}, #{order.realityMoney,jdbcType=DECIMAL}, #{order.orderNo,jdbcType=VARCHAR},
+      #{order.recordNo,jdbcType=VARCHAR}, #{order.createTime,jdbcType=TIMESTAMP},
+      #{order.createBy,jdbcType=VARCHAR}, #{order.remark,jdbcType=VARCHAR}
+      )
+    </foreach>
+  </insert>
+
+  <insert id="insertBatchPickup" parameterType="java.util.List">
+    insert into orders (type_id, user_id,user_tel,user_name,call_time,
+    state,order_type, user_addr, use_time, order_time, dealer_addr,
+     use_car_type, contact_name, contact_tel, order_service, is_order,
+    completed, reality_money,order_no,
+    record_no,create_time,create_by, remark)
+    VALUES
+    <foreach collection="list" item="order" separator=",">
+      (
+      #{order.typeId,jdbcType=INTEGER}, #{order.userId,jdbcType=INTEGER},
+      #{order.userTel,jdbcType=VARCHAR}, #{order.userName,jdbcType=VARCHAR},#{order.callTime,jdbcType=TIMESTAMP},
+      #{order.state,jdbcType=INTEGER}, #{order.orderType,jdbcType=INTEGER},
+      #{order.userAddr,jdbcType=VARCHAR}, #{order.useTime,jdbcType=TIMESTAMP},
+      #{order.orderTime,jdbcType=TIMESTAMP}, #{order.dealerAddr,jdbcType=VARCHAR}, #{order.useCarType,jdbcType=INTEGER},
+      #{order.contactName,jdbcType=VARCHAR}, #{order.contactTel,jdbcType=VARCHAR},
+      #{order.orderService,jdbcType=VARCHAR}, #{order.isOrder,jdbcType=INTEGER}, #{order.completed,jdbcType=INTEGER},
+      #{order.realityMoney,jdbcType=DECIMAL}, #{order.orderNo,jdbcType=VARCHAR},
+      #{order.recordNo,jdbcType=VARCHAR}, #{order.createTime,jdbcType=TIMESTAMP},
+      #{order.createBy,jdbcType=VARCHAR}, #{order.remark,jdbcType=VARCHAR}
+      )
+    </foreach>
+  </insert>
+  <insert id="insertBatchRent" parameterType="java.util.List">
+    insert into orders (type_id, user_id,user_tel,user_name,call_time,
+    state,order_type, rent_city, is_credit, id_no, driver_no, user_addr,
+    begin_time, end_time, duration, order_car_type, open_id,
+    record_agent, is_order,order_service, order_tel,order_time,
+    store_name, store_addr, contact_name, contact_tel, is_gl, visit_time,
+    visitor,is_replace, replace_car,completed, actual_car,expect_money,
+    reality_money,order_no, remark,record_no,create_by,create_time)
+    VALUES
+    <foreach collection="list" item="order" separator=",">
+      (
+      #{order.typeId,jdbcType=INTEGER}, #{order.userId,jdbcType=INTEGER},
+      #{order.userTel,jdbcType=VARCHAR}, #{order.userName,jdbcType=VARCHAR},#{order.callTime,jdbcType=TIMESTAMP},
+      #{order.state,jdbcType=INTEGER}, #{order.orderType,jdbcType=INTEGER},#{order.rentCity,jdbcType=VARCHAR},
+      #{order.isCredit,jdbcType=INTEGER},#{order.idNo,jdbcType=VARCHAR},#{order.driverNo,jdbcType=VARCHAR},
+      #{order.userAddr,jdbcType=VARCHAR},#{order.beginTime,jdbcType=TIMESTAMP},#{order.endTime,jdbcType=TIMESTAMP},
+      #{order.duration,jdbcType=VARCHAR},#{order.orderCarType,jdbcType=VARCHAR},#{order.openId,jdbcType=VARCHAR},#{order.recordAgent,jdbcType=VARCHAR},
+      #{order.isOrder,jdbcType=INTEGER}, #{order.orderService,jdbcType=VARCHAR}, #{order.orderTel,jdbcType=VARCHAR},
+      #{order.orderTime,jdbcType=TIMESTAMP}, #{order.storeName,jdbcType=VARCHAR},#{order.storeAddr,jdbcType=VARCHAR},
+      #{order.contactName,jdbcType=VARCHAR},#{order.contactTel,jdbcType=VARCHAR}, #{order.isGl,jdbcType=INTEGER},
+      #{order.visitTime,jdbcType=TIMESTAMP},#{order.visitor,jdbcType=VARCHAR}, #{order.isReplace,jdbcType=INTEGER},
+      #{order.replaceCar,jdbcType=VARCHAR},#{order.completed,jdbcType=INTEGER}, #{order.actualCar,jdbcType=VARCHAR},
+      #{order.expectMoney,jdbcType=DECIMAL}, #{order.realityMoney,jdbcType=DECIMAL}, #{order.orderNo,jdbcType=VARCHAR},
+      #{order.remark,jdbcType=VARCHAR},#{order.recordNo,jdbcType=VARCHAR},#{order.createBy,jdbcType=VARCHAR}, #{order.createTime,jdbcType=TIMESTAMP}
+      )
+    </foreach>
+  </insert>
+</mapper>

@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.avenir.mapper.UsersMapper" >
+  <resultMap id="BaseResultMap" type="com.avenir.model.Users" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="vin" property="vin" jdbcType="VARCHAR" />
+    <result column="user_name" property="userName" jdbcType="VARCHAR" />
+    <result column="user_id_wx" property="userIdWx" jdbcType="VARCHAR" />
+    <result column="open_id" property="openId" jdbcType="VARCHAR" />
+    <result column="phone" property="phone" jdbcType="VARCHAR" />
+    <result column="service_card" property="serviceCard" jdbcType="VARCHAR" />
+    <result column="service_card_old" property="serviceCardOld" jdbcType="VARCHAR" />
+    <result column="service_type" property="serviceType" jdbcType="VARCHAR" />
+    <result column="car_type" property="carType" jdbcType="VARCHAR" />
+    <result column="car_license" property="carLicense" jdbcType="VARCHAR" />
+    <result column="id_no" property="idNo" jdbcType="VARCHAR" />
+    <result column="driver_no" property="driverNo" jdbcType="VARCHAR" />
+    <result column="user_addr" property="userAddr" jdbcType="VARCHAR" />
+    <result column="invoice_time" property="invoiceTime" jdbcType="DATE" />
+    <result column="report_time" property="reportTime" jdbcType="DATE" />
+    <result column="due_time" property="dueTime" jdbcType="DATE" />
+    <result column="due_count" property="dueCount" jdbcType="INTEGER" />
+    <result column="a_total_count" property="aTotalCount" jdbcType="INTEGER" />
+    <result column="a_total_used" property="aTotalUsed" jdbcType="INTEGER" />
+    <result column="a_current_count" property="aCurrentCount" jdbcType="INTEGER" />
+    <result column="p_total_count" property="pTotalCount" jdbcType="INTEGER" />
+    <result column="p_total_used" property="pTotalUsed" jdbcType="INTEGER" />
+    <result column="p_current_count" property="pCurrentCount" jdbcType="INTEGER" />
+    <result column="r_total_count" property="rTotalCount" jdbcType="INTEGER" />
+    <result column="r_total_used" property="rTotalUsed" jdbcType="INTEGER" />
+    <result column="r_current_count" property="rCurrentCount" jdbcType="INTEGER" />
+    <result column="vin_type" property="vinType" jdbcType="VARCHAR" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="create_by" property="createBy" jdbcType="VARCHAR" />
+    <result column="update_by" property="updateBy" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Base_Column_List" >
+       id, vin, user_name, user_id_wx, open_id, phone, service_card, service_card_old, service_type,
+    car_type, car_license, id_no, driver_no, user_addr, invoice_time, report_time, due_time,
+    due_count, a_total_count, a_total_used, a_current_count, p_total_count, p_total_used,
+    p_current_count, r_total_count, r_total_used, r_current_count, vin_type, remark,
+    create_time, update_time, create_by, update_by
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" >
+    select 
+    <include refid="Base_Column_List" />
+    from users
+    where vin = #{vin, jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from users
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.avenir.model.Users" >
+    insert into users (id, vin, user_name,
+      user_id_wx, open_id, phone,
+      service_card, service_card_old, service_type,
+      car_type, car_license, id_no,
+      driver_no, user_addr, invoice_time,
+      report_time, due_time, due_count,
+      a_total_count, a_total_used, a_current_count,
+      p_total_count, p_total_used, p_current_count,
+      r_total_count, r_total_used, r_current_count,
+      vin_type, remark, create_time,
+      update_time, create_by, update_by
+      )
+    values (#{id,jdbcType=INTEGER}, #{vin,jdbcType=VARCHAR}, #{userName,jdbcType=VARCHAR},
+      #{userIdWx,jdbcType=VARCHAR}, #{openId,jdbcType=VARCHAR}, #{phone,jdbcType=VARCHAR},
+      #{serviceCard,jdbcType=VARCHAR}, #{serviceCardOld,jdbcType=VARCHAR}, #{serviceType,jdbcType=VARCHAR},
+      #{carType,jdbcType=VARCHAR}, #{carLicense,jdbcType=VARCHAR}, #{idNo,jdbcType=VARCHAR},
+      #{driverNo,jdbcType=VARCHAR}, #{userAddr,jdbcType=VARCHAR}, #{invoiceTime,jdbcType=DATE},
+      #{reportTime,jdbcType=DATE}, #{dueTime,jdbcType=DATE}, #{dueCount,jdbcType=INTEGER},
+      #{aTotalCount,jdbcType=INTEGER}, #{aTotalUsed,jdbcType=INTEGER}, #{aCurrentCount,jdbcType=INTEGER},
+      #{pTotalCount,jdbcType=INTEGER}, #{pTotalUsed,jdbcType=INTEGER}, #{pCurrentCount,jdbcType=INTEGER},
+      #{rTotalCount,jdbcType=INTEGER}, #{rTotalUsed,jdbcType=INTEGER}, #{rCurrentCount,jdbcType=INTEGER},
+      #{vinType,jdbcType=VARCHAR}, #{remark,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP},
+      #{updateTime,jdbcType=TIMESTAMP}, #{createBy,jdbcType=VARCHAR}, #{updateBy,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" useGeneratedKeys="true" keyProperty="id"  parameterType="com.avenir.model.Users" >
+    insert into users
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="vin != null" >
+        vin,
+      </if>
+      <if test="userName != null" >
+        user_name,
+      </if>
+      <if test="userIdWx != null" >
+        user_id_wx,
+      </if>
+      <if test="openId != null" >
+        open_id,
+      </if>
+      <if test="phone != null" >
+        phone,
+      </if>
+      <if test="serviceCard != null" >
+        service_card,
+      </if>
+      <if test="serviceCardOld != null" >
+        service_card_old,
+      </if>
+      <if test="serviceType != null" >
+        service_type,
+      </if>
+      <if test="carType != null" >
+        car_type,
+      </if>
+      <if test="carLicense != null" >
+        car_license,
+      </if>
+      <if test="idNo != null" >
+        id_no,
+      </if>
+      <if test="driverNo != null" >
+        driver_no,
+      </if>
+      <if test="userAddr != null" >
+        user_addr,
+      </if>
+      <if test="invoiceTime != null" >
+        invoice_time,
+      </if>
+      <if test="reportTime != null" >
+        report_time,
+      </if>
+      <if test="dueTime != null" >
+        due_time,
+      </if>
+      <if test="dueCount != null" >
+        due_count,
+      </if>
+      <if test="aTotalCount != null" >
+        a_total_count,
+      </if>
+      <if test="aTotalUsed != null" >
+        a_total_used,
+      </if>
+      <if test="aCurrentCount != null" >
+        a_current_count,
+      </if>
+      <if test="pTotalCount != null" >
+        p_total_count,
+      </if>
+      <if test="pTotalUsed != null" >
+        p_total_used,
+      </if>
+      <if test="pCurrentCount != null" >
+        p_current_count,
+      </if>
+      <if test="rTotalCount != null" >
+        r_total_count,
+      </if>
+      <if test="rTotalUsed != null" >
+        r_total_used,
+      </if>
+      <if test="rCurrentCount != null" >
+        r_current_count,
+      </if>
+      <if test="vinType != null" >
+        vin_type,
+      </if>
+      <if test="remark != null" >
+        remark,
+      </if>
+      <if test="createTime != null" >
+        create_time,
+      </if>
+      <if test="updateTime != null" >
+        update_time,
+      </if>
+      <if test="createBy != null" >
+        create_by,
+      </if>
+      <if test="updateBy != null" >
+        update_by,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="vin != null" >
+        #{vin,jdbcType=VARCHAR},
+      </if>
+      <if test="userName != null" >
+        #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="userIdWx != null" >
+        #{userIdWx,jdbcType=VARCHAR},
+      </if>
+      <if test="openId != null" >
+        #{openId,jdbcType=VARCHAR},
+      </if>
+      <if test="phone != null" >
+        #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="serviceCard != null" >
+        #{serviceCard,jdbcType=VARCHAR},
+      </if>
+      <if test="serviceCardOld != null" >
+        #{serviceCardOld,jdbcType=VARCHAR},
+      </if>
+      <if test="serviceType != null" >
+        #{serviceType,jdbcType=VARCHAR},
+      </if>
+      <if test="carType != null" >
+        #{carType,jdbcType=VARCHAR},
+      </if>
+      <if test="carLicense != null" >
+        #{carLicense,jdbcType=VARCHAR},
+      </if>
+      <if test="idNo != null" >
+        #{idNo,jdbcType=VARCHAR},
+      </if>
+      <if test="driverNo != null" >
+        #{driverNo,jdbcType=VARCHAR},
+      </if>
+      <if test="userAddr != null" >
+        #{userAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="invoiceTime != null" >
+        #{invoiceTime,jdbcType=DATE},
+      </if>
+      <if test="reportTime != null" >
+        #{reportTime,jdbcType=DATE},
+      </if>
+      <if test="dueTime != null" >
+        #{dueTime,jdbcType=DATE},
+      </if>
+      <if test="dueCount != null" >
+        #{dueCount,jdbcType=INTEGER},
+      </if>
+      <if test="aTotalCount != null" >
+        #{aTotalCount,jdbcType=INTEGER},
+      </if>
+      <if test="aTotalUsed != null" >
+        #{aTotalUsed,jdbcType=INTEGER},
+      </if>
+      <if test="aCurrentCount != null" >
+        #{aCurrentCount,jdbcType=INTEGER},
+      </if>
+      <if test="pTotalCount != null" >
+        #{pTotalCount,jdbcType=INTEGER},
+      </if>
+      <if test="pTotalUsed != null" >
+        #{pTotalUsed,jdbcType=INTEGER},
+      </if>
+      <if test="pCurrentCount != null" >
+        #{pCurrentCount,jdbcType=INTEGER},
+      </if>
+      <if test="rTotalCount != null" >
+        #{rTotalCount,jdbcType=INTEGER},
+      </if>
+      <if test="rTotalUsed != null" >
+        #{rTotalUsed,jdbcType=INTEGER},
+      </if>
+      <if test="rCurrentCount != null" >
+        #{rCurrentCount,jdbcType=INTEGER},
+      </if>
+      <if test="vinType != null" >
+        #{vinType,jdbcType=VARCHAR},
+      </if>
+      <if test="remark != null" >
+        #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="createBy != null" >
+        #{createBy,jdbcType=VARCHAR},
+      </if>
+      <if test="updateBy != null" >
+        #{updateBy,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.avenir.model.Users" >
+    update users
+    <set >
+      <if test="vin != null" >
+        vin = #{vin,jdbcType=VARCHAR},
+      </if>
+      <if test="userName != null" >
+        user_name = #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="userIdWx != null" >
+        user_id_wx = #{userIdWx,jdbcType=VARCHAR},
+      </if>
+      <if test="openId != null" >
+        open_id = #{openId,jdbcType=VARCHAR},
+      </if>
+      <if test="phone != null" >
+        phone = #{phone,jdbcType=VARCHAR},
+      </if>
+      <if test="serviceCard != null" >
+        service_card = #{serviceCard,jdbcType=VARCHAR},
+      </if>
+      <if test="serviceCardOld != null" >
+        service_card_old = #{serviceCardOld,jdbcType=VARCHAR},
+      </if>
+      <if test="serviceType != null" >
+        service_type = #{serviceType,jdbcType=VARCHAR},
+      </if>
+      <if test="carType != null" >
+        car_type = #{carType,jdbcType=VARCHAR},
+      </if>
+      <if test="carLicense != null" >
+        car_license = #{carLicense,jdbcType=VARCHAR},
+      </if>
+      <if test="idNo != null" >
+        id_no = #{idNo,jdbcType=VARCHAR},
+      </if>
+      <if test="driverNo != null" >
+        driver_no = #{driverNo,jdbcType=VARCHAR},
+      </if>
+      <if test="userAddr != null" >
+        user_addr = #{userAddr,jdbcType=VARCHAR},
+      </if>
+      <if test="invoiceTime != null" >
+        invoice_time = #{invoiceTime,jdbcType=DATE},
+      </if>
+      <if test="reportTime != null" >
+        report_time = #{reportTime,jdbcType=DATE},
+      </if>
+      <if test="dueTime != null" >
+        due_time = #{dueTime,jdbcType=DATE},
+      </if>
+      <if test="dueCount != null" >
+        due_count = #{dueCount,jdbcType=INTEGER},
+      </if>
+      <if test="aTotalCount != null" >
+        a_total_count = #{aTotalCount,jdbcType=INTEGER},
+      </if>
+      <if test="aTotalUsed != null" >
+        a_total_used = #{aTotalUsed,jdbcType=INTEGER},
+      </if>
+      <if test="aCurrentCount != null" >
+        a_current_count = #{aCurrentCount,jdbcType=INTEGER},
+      </if>
+      <if test="pTotalCount != null" >
+        p_total_count = #{pTotalCount,jdbcType=INTEGER},
+      </if>
+      <if test="pTotalUsed != null" >
+        p_total_used = #{pTotalUsed,jdbcType=INTEGER},
+      </if>
+      <if test="pCurrentCount != null" >
+        p_current_count = #{pCurrentCount,jdbcType=INTEGER},
+      </if>
+      <if test="rTotalCount != null" >
+        r_total_count = #{rTotalCount,jdbcType=INTEGER},
+      </if>
+      <if test="rTotalUsed != null" >
+        r_total_used = #{rTotalUsed,jdbcType=INTEGER},
+      </if>
+      <if test="rCurrentCount != null" >
+        r_current_count = #{rCurrentCount,jdbcType=INTEGER},
+      </if>
+      <if test="vinType != null" >
+        vin_type = #{vinType,jdbcType=VARCHAR},
+      </if>
+      <if test="remark != null" >
+        remark = #{remark,jdbcType=VARCHAR},
+      </if>
+      <if test="createTime != null" >
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null" >
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="createBy != null" >
+        create_by = #{createBy,jdbcType=VARCHAR},
+      </if>
+      <if test="updateBy != null" >
+        update_by = #{updateBy,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.avenir.model.Users" >
+     update users
+    set vin = #{vin,jdbcType=VARCHAR},
+      user_name = #{userName,jdbcType=VARCHAR},
+      user_id_wx = #{userIdWx,jdbcType=VARCHAR},
+      open_id = #{openId,jdbcType=VARCHAR},
+      phone = #{phone,jdbcType=VARCHAR},
+      service_card = #{serviceCard,jdbcType=VARCHAR},
+      service_card_old = #{serviceCardOld,jdbcType=VARCHAR},
+      service_type = #{serviceType,jdbcType=VARCHAR},
+      car_type = #{carType,jdbcType=VARCHAR},
+      car_license = #{carLicense,jdbcType=VARCHAR},
+      id_no = #{idNo,jdbcType=VARCHAR},
+      driver_no = #{driverNo,jdbcType=VARCHAR},
+      user_addr = #{userAddr,jdbcType=VARCHAR},
+      invoice_time = #{invoiceTime,jdbcType=DATE},
+      report_time = #{reportTime,jdbcType=DATE},
+      due_time = #{dueTime,jdbcType=DATE},
+      due_count = #{dueCount,jdbcType=INTEGER},
+      a_total_count = #{aTotalCount,jdbcType=INTEGER},
+      a_total_used = #{aTotalUsed,jdbcType=INTEGER},
+      a_current_count = #{aCurrentCount,jdbcType=INTEGER},
+      p_total_count = #{pTotalCount,jdbcType=INTEGER},
+      p_total_used = #{pTotalUsed,jdbcType=INTEGER},
+      p_current_count = #{pCurrentCount,jdbcType=INTEGER},
+      r_total_count = #{rTotalCount,jdbcType=INTEGER},
+      r_total_used = #{rTotalUsed,jdbcType=INTEGER},
+      r_current_count = #{rCurrentCount,jdbcType=INTEGER},
+      vin_type = #{vinType,jdbcType=VARCHAR},
+      remark = #{remark,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP},
+      create_by = #{createBy,jdbcType=VARCHAR},
+      update_by = #{updateBy,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <select id="findUser" resultMap="BaseResultMap" parameterType="com.avenir.model.Users">
+    SELECT
+    <include refid="Base_Column_List"/>
+    FROM USERS
+    WHERE 1 =1
+    <if test="vin != null and vin != ''">
+      AND vin = #{vin,jdbcType=VARCHAR}
+    </if>
+    <if test="serviceCard != null and serviceCard != ''">
+      AND service_card = #{serviceCard,jdbcType=VARCHAR}
+    </if>
+    order by report_time desc
+  </select>
+  <select id="getService" resultMap="BaseResultMap" parameterType="java.lang.String">
+    SELECT
+    <include refid="Base_Column_List"/>
+    FROM USERS
+    WHERE vin = #{vin,jdbcType=VARCHAR}
+  </select>
+  <select id="getUserHasVinType" resultMap="BaseResultMap" parameterType="com.avenir.model.Users">
+    SELECT
+    <include refid="Base_Column_List"/>
+    FROM USERS
+    WHERE 1 = 1
+    <if test="vin != null and vin != ''">
+      AND vin = #{vin,jdbcType=VARCHAR}
+    </if>
+    <if test="serviceCard != null and serviceCard != ''">
+      AND service_card = #{serviceCard,jdbcType=VARCHAR}
+    </if>
+    <if test="vinType != null and vinType != '' ">
+      AND FIND_IN_SET( #{vinType,jdbcType=VARCHAR}, vin_type)
+    </if>
+    AND vin_type is not null order by report_time desc
+  </select>
+
+  <select id="selectByUserId" resultMap="BaseResultMap" parameterType="java.lang.Integer">
+    SELECT
+    <include refid="Base_Column_List"/>
+    FROM  users
+    WHERE id = #{id, jdbcType=INTEGER}
+  </select>
+  <insert id="insertBatch" parameterType="java.util.List">
+    INSERT INTO users(vin, service_card,service_card_old,service_type,user_name,phone,invoice_time,report_time,
+    due_time, due_count, car_type,vin_type, a_total_count,a_current_count, p_total_count,p_current_count, r_total_count,r_current_count,create_by,create_time)
+    VALUES
+    <foreach collection="list" item="user" separator=",">
+      (
+      #{user.vin, jdbcType=VARCHAR},
+      #{user.serviceCard, jdbcType=VARCHAR},
+      #{user.serviceCardOld, jdbcType=VARCHAR},
+      #{user.serviceType, jdbcType=VARCHAR},
+      #{user.userName, jdbcType=VARCHAR},
+      #{user.phone, jdbcType=VARCHAR},
+      #{user.invoiceTime, jdbcType=TIMESTAMP},
+      #{user.reportTime, jdbcType=TIMESTAMP},
+      #{user.dueTime, jdbcType=TIMESTAMP},
+      #{user.dueCount, jdbcType=INTEGER},
+      #{user.carType, jdbcType=VARCHAR},
+      #{user.vinType, jdbcType=VARCHAR},
+      #{user.aTotalCount, jdbcType=INTEGER},
+      #{user.aCurrentCount, jdbcType=INTEGER},
+      #{user.pTotalCount, jdbcType=INTEGER},
+      #{user.pCurrentCount, jdbcType=INTEGER},
+      #{user.rTotalCount, jdbcType=INTEGER},
+      #{user.rCurrentCount, jdbcType=INTEGER},
+      #{user.createBy, jdbcType=VARCHAR},
+      #{user.createTime, jdbcType=TIMESTAMP}
+      )
+    </foreach>
+  </insert>
+  
+  <update id="updateBatch"  parameterType="java.util.List">
+    update users
+    <trim prefix="set" suffixOverrides=",">
+      <trim prefix="service_card=case" suffix="end,">
+        <foreach collection="list" item="item" index="index">
+          <if test="item.serviceCard!=null">
+            when id=#{item.id} then #{item.serviceCard}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="service_card_old=case" suffix="end,">
+        <foreach collection="list" item="item" index="index">
+          <if test="item.serviceCardOld!=null">
+            when id=#{item.id} then #{item.serviceCardOld}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="user_name=case" suffix="end,">
+        <foreach collection="list" item="item" index="index">
+          <if test="item.userName!=null">
+            when id=#{item.id} then #{item.userName}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="phone=case" suffix="end,">
+        <foreach collection="list" item="item" index="index">
+          <if test="item.phone!=null">
+            when id=#{item.id} then #{item.phone}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="invoice_time=case" suffix="end,">
+        <foreach collection="list" item="item" index="index">
+          <if test="item.invoiceTime!=null">
+            when id=#{item.id} then #{item.invoiceTime}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="report_time=case" suffix="end,">
+        <foreach collection="list" item="item" index="index">
+          <if test="item.reportTime!=null">
+            when id=#{item.id} then #{item.reportTime}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="due_count=case" suffix="end,">
+        <foreach collection="list" item="item" index="index">
+          <if test="item.dueCount!=null">
+            when id=#{item.id} then #{item.dueCount}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="due_time=case" suffix="end,">
+        <foreach collection="list" item="item" index="index">
+          <if test="item.dueTime!=null">
+            when id=#{item.id} then #{item.dueTime}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="service_type=case" suffix="end,">
+        <foreach collection="list" item="item" index="index">
+          <if test="item.serviceType!=null">
+            when id=#{item.id} then #{item.serviceType}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="car_type=case" suffix="end,">
+        <foreach collection="list" item="item" index="index">
+          <if test="item.carType!=null">
+            when id=#{item.id} then #{item.carType}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="a_total_count=case" suffix="end,">
+        <foreach collection="list" item="item" index="index">
+          <if test="item.aTotalCount!=null">
+            when id=#{item.id} then #{item.aTotalCount}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="a_current_count=case" suffix="end,">
+        <foreach collection="list" item="item" index="index">
+          <if test="item.aCurrentCount!=null">
+            when id=#{item.id} then #{item.aCurrentCount}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="p_total_count=case" suffix="end,">
+        <foreach collection="list" item="item" index="index">
+          <if test="item.pTotalCount!=null">
+            when id=#{item.id} then #{item.pTotalCount}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="p_current_count=case" suffix="end,">
+        <foreach collection="list" item="item" index="index">
+          <if test="item.pCurrentCount!=null">
+            when id=#{item.id} then #{item.pCurrentCount}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="r_total_count=case" suffix="end,">
+        <foreach collection="list" item="item" index="index">
+          <if test="item.rTotalCount!=null">
+            when id=#{item.id} then #{item.rTotalCount}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="r_current_count=case" suffix="end,">
+        <foreach collection="list" item="item" index="index">
+          <if test="item.rCurrentCount!=null">
+            when id=#{item.id} then #{item.rCurrentCount}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="vin_type=case" suffix="end,">
+        <foreach collection="list" item="item" index="index">
+          <if test="item.vinType!=null">
+            when id=#{item.id} then #{item.vinType}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="update_by=case" suffix="end,">
+        <foreach collection="list" item="item" index="index">
+          <if test="item.updateBy!=null">
+            when id=#{item.id} then #{item.updateBy}
+          </if>
+        </foreach>
+      </trim>
+      <trim prefix="update_time=case" suffix="end,">
+        <foreach collection="list" item="item" index="index">
+          <if test="item.updateTime!=null">
+            when id=#{item.id} then #{item.updateTime}
+          </if>
+        </foreach>
+      </trim>
+    </trim>
+    where
+    <foreach collection="list" item="user" separator="or" index="index">
+      id = #{user.id}
+    </foreach>
+  </update>
+
+  <update id="updateByCarLicense" parameterType="java.util.Map">
+    update users set car_license = #{carLicense} where id = #{id}
+  </update>
+
+</mapper>
