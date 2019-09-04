@@ -1,2 +1,0 @@
-2019-05-30 18:45:58.411 [http-nio-8088-exec-4] WARN  org.apache.catalina.connector.Request - Creating the temporary upload location [C:\Users\dell\AppData\Local\Temp\tomcat.8231511722382057563.8088\work\Tomcat\localhost\ROOT] as it is required by the servlet [dispatcherServlet]
-2019-05-30 19:47:03.814 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s330ms993µs300ns).

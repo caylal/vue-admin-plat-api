@@ -1,6 +1,0 @@
-2019-07-03 11:05:00.335 [http-nio-8088-exec-2] ERROR com.avenir.utils.LogUtils - syntax error, pos 1, json : <script type="text/javascript">location.href='http://dev.hibuick.com.cn/index.php/';</script>
-2019-07-03 11:05:06.177 [http-nio-8088-exec-5] ERROR com.avenir.utils.LogUtils - syntax error, pos 1, json : <script type="text/javascript">location.href='http://dev.hibuick.com.cn/index.php/';</script>
-2019-07-03 11:06:17.615 [http-nio-8088-exec-4] ERROR com.avenir.utils.LogUtils - syntax error, pos 1, json : <script type="text/javascript">location.href='http://dev.hibuick.com.cn/index.php/';</script>
-2019-07-03 11:06:24.547 [http-nio-8088-exec-7] ERROR com.avenir.utils.LogUtils - syntax error, pos 1, json : <script type="text/javascript">location.href='http://dev.hibuick.com.cn/index.php/';</script>
-2019-07-03 11:19:58.186 [http-nio-8088-exec-5] ERROR com.avenir.utils.LogUtils - syntax error, pos 1, json : <script type="text/javascript">location.href='http://dev.hibuick.com.cn/index.php/';</script>
-2019-07-03 11:21:30.901 [http-nio-8088-exec-2] ERROR com.avenir.utils.LogUtils - syntax error, pos 1, json : <script type="text/javascript">location.href='http://dev.hibuick.com.cn/index.php/';</script>

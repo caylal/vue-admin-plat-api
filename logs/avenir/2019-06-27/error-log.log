@@ -1,1 +1,0 @@
-2019-06-27 10:39:29.213 [http-nio-8088-exec-2] ERROR com.avenir.utils.LogUtils - syntax error, pos 1, json : <script type="text/javascript">location.href='http://dev.hibuick.com.cn/index.php/';</script>
